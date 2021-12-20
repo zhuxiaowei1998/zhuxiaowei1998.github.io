@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Chrome 常用快捷键总结</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/20/chrome-shortcut/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/20/chrome-shortcut/</guid>
+      <description> Reference to Chrome keyboard shortcuts
+ Common chrome shortcuts    action shortcut     Open a new window Ctrl + n   Open a new window in Incognito mode Ctrl + Shift + n   Open a new tab, and jump to it Ctrl + t   Reopen previously closed tabs in the order that they were closed Ctrl + Shift + t   Jump to the next open tab Ctrl + Tab or Ctrl + PgDn   Jump to the previous open tab Ctrl + Shift + Tab or Ctrl + PgUp   Jump to a specific tab Ctrl + 1 through Ctrl + 8   Jump to the rightmost tab Ctrl + 9   Open your home page in the current tab Alt + Home   Open the previous page from your browsing history in the current tab Alt + Left arrow   Open the next page from your browsing history in the current tab Alt + Right arrow   Close the current tab Ctrl + w or Ctrl + F4   Close the current window Ctrl + Shift + w or Alt + F4   Minimize the current window Alt + Space then n   Maximize the current window Alt + Space then x   Quit Google Chrome Alt + f then x   Open the Chrome Task Manager Shift + Esc   Open the Bookmarks Manager Ctrl + Shift + o   Search from anywhere on the page Ctrl + k or Ctrl + e   Jump to the next match to your Find Bar search Ctrl + g   Jump to the previous match to your Find Bar search Ctrl + Shift + g   Open options to print the current page Ctrl + p   Reload the current page F5 or Ctrl + r   Save your current web page as a bookmark Ctrl + d   Save all open tabs as bookmarks in a new folder Ctrl + Shift + d   Turn full-screen mode on or off F11   Make everything on the page bigger Ctrl and +   Make everything on the page smaller Ctrl and -   Return everything on the page to default size Ctrl + 0   Go to the top of the page Home   Go to the bottom of the page End   Open the Home page in the current tab Alt + Home   Open a link in new background tab Ctrl + Click a link   Open a link, and jump to it Ctrl + Shift + Click a link   Open a link in a new window Shift + Click a link    </description>
+    </item>
+    
+    <item>
       <title>Statistical inference 1</title>
       <link>https://zhuxiaowei1998.github.io/note/2021/12/20/statistical-inference-1/</link>
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
@@ -37,7 +47,20 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://zhuxiaowei1998.github.io/posts/to-do-list/</guid>
-      <description>这里写 to do list</description>
+      <description>Christmas Plan
+ 制作个人博客 整理完FSI每一章节的内容，写进Blog 过完FSI所有的problem sets 做完所有FSI往年的卷子，校对答案，过程记录在notability上 过完PS所有的notes 做完所有PS往年的卷子，校对答案，过程记录在notability上 过完PS所有的exercise 牛客网上leetcode刷到100题 百面机器学习过完 《统计学习》公式推导 《数学之美》看完，做摘录  Christmas week 1
+ 整理FSI每一章的笔记 PS所有exercise过完，难点做标记 数学之美看完7章 隐马尔科夫模型 理发  book list
+ 《金字塔原理》 《财务自由之路》  </description>
+    </item>
+    
+    <item>
+      <title>Windows10 常用快捷键总结</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/20/win10-shortcut/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/20/win10-shortcut/</guid>
+      <description>Reference to Windows Central
+ Common Windows10 shortcuts    Keyboard shortcut Action     Ctrl + A Select all content.   Ctrl + C (or Ctrl + Insert) Copy selected items to clipboard.   Ctrl + X Cut selected items to clipboard.   Ctrl + V (or Shift + Insert)	Paste content from clipboard.   Ctrl + Z Undo an action, including undelete files (limited).</description>
     </item>
     
     <item>
@@ -110,7 +133,7 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
       <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://zhuxiaowei1998.github.io/posts/diary/</guid>
-      <description>专业课  完成FSI第一章的笔记整理  something useful  vs code 里面的 Code Spell Checker Extension 可以检查拼写！ mathjax数学公式用法  </description>
+      <description>专业课  完成FSI第一章和第二章的笔记整理  整理总结  Chrome 快捷键的整理 Windows 快捷键的整理 有相似之处！ Chrome的书签是个好东西，可以整理很多网页！  something useful  vs code 里面的 Code Spell Checker Extension 可以检查拼写！ mathjax数学公式用法  </description>
     </item>
     
   </channel>

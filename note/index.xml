@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/note/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Chrome 常用快捷键总结</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/20/chrome-shortcut/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/20/chrome-shortcut/</guid>
+      <description> Reference to Chrome keyboard shortcuts
+ Common chrome shortcuts    action shortcut     Open a new window Ctrl + n   Open a new window in Incognito mode Ctrl + Shift + n   Open a new tab, and jump to it Ctrl + t   Reopen previously closed tabs in the order that they were closed Ctrl + Shift + t   Jump to the next open tab Ctrl + Tab or Ctrl + PgDn   Jump to the previous open tab Ctrl + Shift + Tab or Ctrl + PgUp   Jump to a specific tab Ctrl + 1 through Ctrl + 8   Jump to the rightmost tab Ctrl + 9   Open your home page in the current tab Alt + Home   Open the previous page from your browsing history in the current tab Alt + Left arrow   Open the next page from your browsing history in the current tab Alt + Right arrow   Close the current tab Ctrl + w or Ctrl + F4   Close the current window Ctrl + Shift + w or Alt + F4   Minimize the current window Alt + Space then n   Maximize the current window Alt + Space then x   Quit Google Chrome Alt + f then x   Open the Chrome Task Manager Shift + Esc   Open the Bookmarks Manager Ctrl + Shift + o   Search from anywhere on the page Ctrl + k or Ctrl + e   Jump to the next match to your Find Bar search Ctrl + g   Jump to the previous match to your Find Bar search Ctrl + Shift + g   Open options to print the current page Ctrl + p   Reload the current page F5 or Ctrl + r   Save your current web page as a bookmark Ctrl + d   Save all open tabs as bookmarks in a new folder Ctrl + Shift + d   Turn full-screen mode on or off F11   Make everything on the page bigger Ctrl and +   Make everything on the page smaller Ctrl and -   Return everything on the page to default size Ctrl + 0   Go to the top of the page Home   Go to the bottom of the page End   Open the Home page in the current tab Alt + Home   Open a link in new background tab Ctrl + Click a link   Open a link, and jump to it Ctrl + Shift + Click a link   Open a link in a new window Shift + Click a link    </description>
+    </item>
+    
+    <item>
       <title>Statistical inference 1</title>
       <link>https://zhuxiaowei1998.github.io/note/2021/12/20/statistical-inference-1/</link>
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
@@ -29,6 +39,16 @@ Key: specification of prior distribution on $\theta$, before data analysis.</des
  Formulation Elements of a formal decision problem:
  Parameter space. $\Omega_\theta$ Sample space $\mathcal{Y}$. $y = (y_1,\cdots,y_n)\in\mathbb{R}^n$ Family of distributions. $\{\mathbb{P}_\theta(y),y\in\mathcal{Y},\theta\in\Omega_\theta\}$ Action space $\mathcal{A}$. Loss function $L$. Function $L:\Omega_\theta\times\mathcal{A}\rightarrow\mathbb{R}$. Decision rule $d$. Function $d:\mathcal{Y}\rightarrow\mathcal{A}$.  Risk Function $$R(\theta, d)=\mathbb{E}_{\theta} L(\theta, d(Y))=\int_{\mathcal{Y}} L(\theta, d(y)) f(y ; \theta) d y$$
 Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$ Absolute error loss function: $$L(\theta,a) = |\theta-a|$$</description>
+    </item>
+    
+    <item>
+      <title>Windows10 常用快捷键总结</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/20/win10-shortcut/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/20/win10-shortcut/</guid>
+      <description>Reference to Windows Central
+ Common Windows10 shortcuts    Keyboard shortcut Action     Ctrl + A Select all content.   Ctrl + C (or Ctrl + Insert) Copy selected items to clipboard.   Ctrl + X Cut selected items to clipboard.   Ctrl + V (or Shift + Insert)	Paste content from clipboard.   Ctrl + Z Undo an action, including undelete files (limited).</description>
     </item>
     
     <item>
