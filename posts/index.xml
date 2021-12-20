@@ -6,14 +6,41 @@
     <description>Recent content in Posts on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>to do list</title>
+      <link>https://zhuxiaowei1998.github.io/posts/to-do-list/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/posts/to-do-list/</guid>
+      <description>这里写 to do list</description>
+    </item>
+    
+    <item>
+      <title>原则</title>
+      <link>https://zhuxiaowei1998.github.io/posts/principle/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/posts/principle/</guid>
+      <description>这里写 principle</description>
+    </item>
+    
     <item>
       <title>Zhuxiaowei&#39;s home page</title>
-      <link>https://zhuxiaowei1998.github.io/posts/post/</link>
+      <link>https://zhuxiaowei1998.github.io/posts/2021-12-19-welcome/</link>
       <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://zhuxiaowei1998.github.io/posts/post/</guid>
+      <guid>https://zhuxiaowei1998.github.io/posts/2021-12-19-welcome/</guid>
       <description>高哥，天真，你们好！</description>
+    </item>
+    
+    <item>
+      <title>日记</title>
+      <link>https://zhuxiaowei1998.github.io/posts/diary/</link>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/posts/diary/</guid>
+      <description>专业课  完成FSI第一章的笔记整理  something useful  vs code 里面的 Code Spell Checker Extension 可以检查拼写！ mathjax数学公式用法  </description>
     </item>
     
   </channel>

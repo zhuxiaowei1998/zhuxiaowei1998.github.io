@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frequentist inference on Xiaowei</title>
+    <link>https://zhuxiaowei1998.github.io/tags/frequentist-inference/</link>
+    <description>Recent content in Frequentist inference on Xiaowei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/tags/frequentist-inference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statistical inference 1</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/20/statistical-inference-1/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/20/statistical-inference-1/</guid>
+      <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+ What is statistical inference? Observational data modelled as observed values of random variables, to provide framework from which inductive conclusions may be drawn about mechanism giving rise to data.
+Types of inference  Point estimation Confidence set estimation Hypothesis testing  Three paradigms of inference  Bayesian Fisherian frequentist  Bayesian inference Unknown parameter $\theta$ treated as random variable.
+Key: specification of prior distribution on $\theta$, before data analysis.</description>
+    </item>
+    
+  </channel>
+</rss>

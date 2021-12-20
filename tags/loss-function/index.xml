@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>loss function on Xiaowei</title>
+    <link>https://zhuxiaowei1998.github.io/tags/loss-function/</link>
+    <description>Recent content in loss function on Xiaowei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/tags/loss-function/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statistical inference 2</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/20/statistical-inference-2/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/20/statistical-inference-2/</guid>
+      <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+ Formulation Elements of a formal decision problem:
+ Parameter space. $\Omega_\theta$ Sample space $\mathcal{Y}$. $y = (y_1,\cdots,y_n)\in\mathbb{R}^n$ Family of distributions. $\{\mathbb{P}_\theta(y),y\in\mathcal{Y},\theta\in\Omega_\theta\}$ Action space $\mathcal{A}$. Loss function $L$. Function $L:\Omega_\theta\times\mathcal{A}\rightarrow\mathbb{R}$. Decision rule $d$. Function $d:\mathcal{Y}\rightarrow\mathcal{A}$.  Risk Function $$R(\theta, d)=\mathbb{E}_{\theta} L(\theta, d(Y))=\int_{\mathcal{Y}} L(\theta, d(y)) f(y ; \theta) d y$$
+Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$ Absolute error loss function: $$L(\theta,a) = |\theta-a|$$</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,49 @@
     <description>Recent content in Home on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statistical inference 1</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/20/statistical-inference-1/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/20/statistical-inference-1/</guid>
+      <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+ What is statistical inference? Observational data modelled as observed values of random variables, to provide framework from which inductive conclusions may be drawn about mechanism giving rise to data.
+Types of inference  Point estimation Confidence set estimation Hypothesis testing  Three paradigms of inference  Bayesian Fisherian frequentist  Bayesian inference Unknown parameter $\theta$ treated as random variable.
+Key: specification of prior distribution on $\theta$, before data analysis.</description>
+    </item>
+    
+    <item>
+      <title>Statistical inference 2</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/20/statistical-inference-2/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/20/statistical-inference-2/</guid>
+      <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+ Formulation Elements of a formal decision problem:
+ Parameter space. $\Omega_\theta$ Sample space $\mathcal{Y}$. $y = (y_1,\cdots,y_n)\in\mathbb{R}^n$ Family of distributions. $\{\mathbb{P}_\theta(y),y\in\mathcal{Y},\theta\in\Omega_\theta\}$ Action space $\mathcal{A}$. Loss function $L$. Function $L:\Omega_\theta\times\mathcal{A}\rightarrow\mathbb{R}$. Decision rule $d$. Function $d:\mathcal{Y}\rightarrow\mathcal{A}$.  Risk Function $$R(\theta, d)=\mathbb{E}_{\theta} L(\theta, d(Y))=\int_{\mathcal{Y}} L(\theta, d(y)) f(y ; \theta) d y$$
+Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$ Absolute error loss function: $$L(\theta,a) = |\theta-a|$$</description>
+    </item>
+    
+    <item>
+      <title>to do list</title>
+      <link>https://zhuxiaowei1998.github.io/posts/to-do-list/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/posts/to-do-list/</guid>
+      <description>这里写 to do list</description>
+    </item>
+    
+    <item>
+      <title>原则</title>
+      <link>https://zhuxiaowei1998.github.io/posts/principle/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/posts/principle/</guid>
+      <description>这里写 principle</description>
+    </item>
+    
     <item>
       <title>About Me</title>
       <link>https://zhuxiaowei1998.github.io/about/</link>
@@ -29,10 +71,10 @@
     
     <item>
       <title>Zhuxiaowei&#39;s home page</title>
-      <link>https://zhuxiaowei1998.github.io/posts/post/</link>
+      <link>https://zhuxiaowei1998.github.io/posts/2021-12-19-welcome/</link>
       <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://zhuxiaowei1998.github.io/posts/post/</guid>
+      <guid>https://zhuxiaowei1998.github.io/posts/2021-12-19-welcome/</guid>
       <description>高哥，天真，你们好！</description>
     </item>
     
@@ -45,7 +87,8 @@
       <description>这里将记录我的建站历程
 本个人主页采用hugo，关于Hugo的简单教程在这里，模板参考谢益辉使用的hugo-ivy，网站建立的教程参考该youtube视频。谢益辉写的blogdown和hugo-ivy的一些说明在这里。
 日后如需更新文档，输入以下git代码：
-&amp;gt;hugo &amp;gt;cd public &amp;gt;git remote -v &amp;gt;git status &amp;gt;git add . &amp;gt;git commit -m &amp;#34;add something&amp;#34; &amp;gt;git push origin main </description>
+&amp;gt;hugo &amp;gt;cd public &amp;gt;git remote -v &amp;gt;git status &amp;gt;git add . &amp;gt;git commit -m &amp;#34;add something&amp;#34; &amp;gt;git push origin main 输入公式:
+`$ $`</description>
     </item>
     
     <item>
@@ -59,6 +102,15 @@
 做法：
  将生鸡蛋煮熟 放入冰水浸泡20分钟，然后轻轻敲碎外壳 另起一锅，加水，放茶叶、八角、桂皮，倒生抽，老抽，放盐，放糖 煮10分钟，有香味后，放敲碎的鸡蛋，中火煮半小时 全部倒入慢炖锅，低档开一晚上  Tips:
  茶叶最好用红茶 鸡蛋敲碎一点，否则不入味  </description>
+    </item>
+    
+    <item>
+      <title>日记</title>
+      <link>https://zhuxiaowei1998.github.io/posts/diary/</link>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/posts/diary/</guid>
+      <description>专业课  完成FSI第一章的笔记整理  something useful  vs code 里面的 Code Spell Checker Extension 可以检查拼写！ mathjax数学公式用法  </description>
     </item>
     
   </channel>

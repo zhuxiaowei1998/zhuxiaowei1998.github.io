@@ -16,7 +16,8 @@
       <description>这里将记录我的建站历程
 本个人主页采用hugo，关于Hugo的简单教程在这里，模板参考谢益辉使用的hugo-ivy，网站建立的教程参考该youtube视频。谢益辉写的blogdown和hugo-ivy的一些说明在这里。
 日后如需更新文档，输入以下git代码：
-&amp;gt;hugo &amp;gt;cd public &amp;gt;git remote -v &amp;gt;git status &amp;gt;git add . &amp;gt;git commit -m &amp;#34;add something&amp;#34; &amp;gt;git push origin main </description>
+&amp;gt;hugo &amp;gt;cd public &amp;gt;git remote -v &amp;gt;git status &amp;gt;git add . &amp;gt;git commit -m &amp;#34;add something&amp;#34; &amp;gt;git push origin main 输入公式:
+`$ $`</description>
     </item>
     
   </channel>
