@@ -14,9 +14,8 @@
       
       <guid>https://zhuxiaowei1998.github.io/note/2021/12/20/statistical-inference-1/</guid>
       <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
- What is statistical inference? Observational data modelled as observed values of random variables, to provide framework from which inductive conclusions may be drawn about mechanism giving rise to data.
-Types of inference  Point estimation Confidence set estimation Hypothesis testing  Three paradigms of inference  Bayesian Fisherian frequentist  Bayesian inference Unknown parameter $\theta$ treated as random variable.
-Key: specification of prior distribution on $\theta$, before data analysis.</description>
+ Approaches to Statistical Inference What is statistical inference? Observational data modelled as observed values of random variables, to provide framework from which inductive conclusions may be drawn about mechanism giving rise to data.
+Types of inference  Point estimation Confidence set estimation Hypothesis testing  Three paradigms of inference  Bayesian Fisherian frequentist  Bayesian inference Unknown parameter $\theta$ treated as random variable.</description>
     </item>
     
   </channel>

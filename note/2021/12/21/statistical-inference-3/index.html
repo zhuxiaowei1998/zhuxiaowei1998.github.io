@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Statistical inference 3 - Xiaowei</title>
+    <meta property="og:title" content="Statistical inference 3 - Xiaowei">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+[&amp;hellip;] The posterior density of $\theta$, conditional on the observed value $Y=y$, is derived by applying Bayes&#39; &amp;hellip;">
+      <meta property="og:description" content="Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+[&amp;hellip;] The posterior density of $\theta$, conditional on the observed value $Y=y$, is derived by applying Bayes&#39; &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="note">
+    <header class="masthead">
+      <h1><a href="/">Xiaowei</a></h1>
+
+<p class="tagline">An unexamined life is not worth living.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" hidden/>
+  <label id="menu-label" for="menu-check" class="unselectable" hidden>
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/links/">Links</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Statistical inference 3</h1>
+
+<h3>Xiaowei Zhu
+  /  2021-12-21</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<blockquote>
+<p>Reference: Fundamentals of Statistical Inference&mdash;&mdash;G.Alastair Young</p>
+</blockquote>
+<h1 id="bayesian-methods">Bayesian Methods</h1>
+<h2 id="posterior-density">Posterior density</h2>
+<p>The posterior density of <code>$\theta$</code>, conditional on the observed value <code>$Y=y$</code>, is derived by applying Bayes' rule:</p>
+<p><code>$$\pi(\theta \mid y)=\frac{\pi(\theta) f(y ; \theta)}{\int_{\Omega_{\theta}} \pi\left(\theta^{\prime}\right) f\left(y ; \theta^{\prime}\right) d \theta^{\prime}}$$</code></p>
+<p><code>$$\pi(\theta|y)\propto\pi(\theta)f(y;\theta)$$</code></p>
+<p><code>$$\text{posterior}\propto\text{prior}\times\text{likelihood}$$</code></p>
+<h2 id="the-general-form-of-bayes-rule">The general form of Bayes rule</h2>
+<p>To minimize the Bayes risk <code>$r(\pi,d))$</code> is equivalent to minimize
+<code>$$\int_{\Omega_{\theta}} L(\theta, d(y)) \pi(\theta \mid y) d \theta$$</code></p>
+<h2 id="james-stein-estimator">James-Stein estimator</h2>
+<p><code>$$d^{a}(Y)=\left(1-\frac{a}{\|Y\|^{2}}\right) Y$$</code></p>
+<h3 id="steins-lemma">Stein&rsquo;s lemma</h3>
+<p><code>$$E\left\{\left(Y_{i}-\mu_{i}\right) h(Y)\right\}=E\left\{\frac{\partial h(Y)}{\partial Y_{i}}\right\}$$</code></p>
+<p><code>$$R\left(\mu, d^{a}(Y)\right)=p-\left[2 a(p-2)-a^{2}\right] E\left(\frac{1}{\|Y\|^{2}}\right)$$</code></p>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/note/2021/12/21/wash-dish/">如何洗碗又快又干净</a></span>
+  <span class="nav-next"></span>
+</nav>
+
+
+
+
+
+<script src="//yihui.org/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.org/js/center-img.js"></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">© <a href="https://zhuxiaowei1998.github.io/">Xiaowei Zhu</a> 2021</div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

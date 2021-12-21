@@ -90,7 +90,8 @@
 <blockquote>
 <p>Reference: Fundamentals of Statistical Inference&mdash;&mdash;G.Alastair Young</p>
 </blockquote>
-<h1 id="formulation">Formulation</h1>
+<h1 id="decision-theory">Decision Theory</h1>
+<h2 id="formulation">Formulation</h2>
 <p>Elements of a formal decision problem:</p>
 <ol>
 <li>Parameter space. <code>$\Omega_\theta$</code></li>
@@ -100,16 +101,16 @@
 <li>Loss function <code>$L$</code>. Function <code>$L:\Omega_\theta\times\mathcal{A}\rightarrow\mathbb{R}$</code>.</li>
 <li>Decision rule <code>$d$</code>. Function <code>$d:\mathcal{Y}\rightarrow\mathcal{A}$</code>.</li>
 </ol>
-<h1 id="risk-function">Risk Function</h1>
+<h2 id="risk-function">Risk Function</h2>
 <p><code>$$R(\theta, d)=\mathbb{E}_{\theta} L(\theta, d(Y))=\int_{\mathcal{Y}} L(\theta, d(y)) f(y ; \theta) d y$$</code></p>
-<h1 id="common-loss-function">Common loss function</h1>
+<h2 id="common-loss-function">Common loss function</h2>
 <p>Squared error loss function:
 <code>$$L(\theta,a) = (\theta-a)^2$$</code>
 Absolute error loss function:
 <code>$$L(\theta,a) = |\theta-a|$$</code></p>
-<h1 id="admissible-decision-rules">Admissible decision rules</h1>
+<h2 id="admissible-decision-rules">Admissible decision rules</h2>
 <p>Given two decision rules <code>$d$</code> and <code>$d'$</code>, we say <code>$d$</code> strictly dominates <code>$d'$</code> if <code>$R(\theta,d)\leq R(\theta,d')$</code> for all values of <code>$\theta$</code>, and <code>$R(\theta,d)&lt;R(\theta,d')$</code> for at least one <code>$\theta$</code>.</p>
-<h1 id="minimax-decision-rules">Minimax decision rules</h1>
+<h2 id="minimax-decision-rules">Minimax decision rules</h2>
 <p>The maximum risk of decision rule <code>$d$</code> is defined by
 <code>$$\operatorname{MR}(d)=\sup _{\theta} R(\theta, d)$$</code>
 A decision rule <code>$d$</code> is minimax if it minimizes the maximum risk:
@@ -117,33 +118,33 @@ A decision rule <code>$d$</code> is minimax if it minimizes the maximum risk:
 <p>So, <code>$d$</code> must satisfy
 <code>$$\sup _{\theta} R(\theta, d)=\inf _{d^{\prime}} \sup _{\theta} R\left(\theta, d^{\prime}\right)$$</code></p>
 <p>The minimax principle says we should use the minimax decision rule.</p>
-<h1 id="unbiased-decision-rules">Unbiased decision rules</h1>
+<h2 id="unbiased-decision-rules">Unbiased decision rules</h2>
 <p>A decision rule <code>$d$</code> is said to be unbiased if
 <code>$$\mathbb{E}_{\theta}\left\{L\left(\theta^{\prime}, d(Y)\right)\right\} \geq \mathbb{E}_{\theta}\{L(\theta, d(Y))\} \text { for all } \theta, \theta^{\prime}$$</code></p>
-<h1 id="bayes-risk">Bayes risk</h1>
+<h2 id="bayes-risk">Bayes risk</h2>
 <p>In the continuous case, the Bayes risk of a decision rule <code>$d$</code> is defined to be 
 <code>$$r(\pi, d)=\int_{\theta \in \Omega_{\theta}} R(\theta, d) \pi(\theta) d \theta$$</code>
 In the discrete case, integral is replaced by a summation.</p>
-<h1 id="bayes-rule">Bayes rule</h1>
+<h2 id="bayes-rule">Bayes rule</h2>
 <p>A decision rule <code>$d$</code> is said to be the Bayes rule(with respect to a given prior <code>$\pi(\cdot)$</code>) if it minimized the Bayes risk: if
 <code>$$r(\pi, d)=\inf _{d^{\prime}} r\left(\pi, d^{\prime}\right)=m_{\pi} \text { say. }$$</code>
 The Bayes principle says we should use the Bayes decision rule.</p>
-<h1 id="risk-of-randomized-rule">Risk of randomized rule</h1>
+<h2 id="risk-of-randomized-rule">Risk of randomized rule</h2>
 <p>For a randomized decision rule <code>$d'$</code>, the risk function is defined by averaging across possible risks associated with the component decision rules:
 <code>$$R(\theta,d^*)=\sum_{i=1}^Ip_iR(\theta,d_i)$$</code></p>
-<h1 id="finding-minimax-rules-in-general">Finding minimax rules in general</h1>
-<h2 id="theorem-21">Theorem 2.1</h2>
+<h2 id="finding-minimax-rules-in-general">Finding minimax rules in general</h2>
+<h3 id="theorem-21">Theorem 2.1</h3>
 <p>If <code>$\delta_n$</code> is Bayes with respect to prior <code>$\pi_n(\cdot)$</code>, and <code>$r(\pi_n,\delta_n)\rightarrow C$</code> as <code>$n\rightarrow\infty$</code>, and if <code>$R(\theta,\delta_0)\leq C$</code> for all <code>$\theta\in\Omega_\theta$</code>, then <code>$\delta_0$</code> is minimax.</p>
-<h2 id="theorem-22">Theorem 2.2</h2>
+<h3 id="theorem-22">Theorem 2.2</h3>
 <p>A decision rule <code>$d$</code> is an equaliser decision rule is <code>$R(\theta,d)$</code> is the same for every value of <code>$\theta$</code>.</p>
 <p>Then, an equaliser decision rule <code>$\delta_0$</code> which is extended Bayes must be minimax.</p>
-<h1 id="admissibility-of-bayes-rules">Admissibility of Bayes rules</h1>
+<h2 id="admissibility-of-bayes-rules">Admissibility of Bayes rules</h2>
 <p>Bayes rules are nearly always admissible.</p>
-<h2 id="theorem-23">Theorem 2.3</h2>
+<h3 id="theorem-23">Theorem 2.3</h3>
 <p>Assume that <code>$\Omega_\theta$</code> is discrete, <code>$\Omega_\theta=\{\theta_1,\cdots,\theta_t\}$</code> and that the prior <code>$\pi$</code> gives positive probability to each <code>$\theta_i$</code>. A Bayes rule with respect to <code>$\pi$</code> is admissible.</p>
-<h2 id="theorem-24">Theorem 2.4</h2>
+<h3 id="theorem-24">Theorem 2.4</h3>
 <p>If a Bayes rule is unique, it is admissible.</p>
-<h2 id="theorem-25">Theorem 2.5</h2>
+<h3 id="theorem-25">Theorem 2.5</h3>
 <p>Let <code>$\Omega_\theta$</code> be a subset of the real line. Assume that the risk functions <code>$R(\theta,d)$</code> are continuous in <code>$\theta$</code> for all decision rules <code>$d$</code>. Suppose that for any <code>$\epsilon&gt;0$</code> and any <code>$\theta$</code> the interval <code>$(\theta-\epsilon,\theta+\epsilon)$</code> has positive probability under the prior <code>$\pi$</code>. Then a Bayes rule with respect to <code>$\pi$</code> is admissible.</p>
 
 

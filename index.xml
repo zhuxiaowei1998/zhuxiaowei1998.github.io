@@ -6,7 +6,56 @@
     <description>Recent content in Home on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statistical inference 3</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/21/statistical-inference-3/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/21/statistical-inference-3/</guid>
+      <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+ Bayesian Methods Posterior density The posterior density of $\theta$, conditional on the observed value $Y=y$, is derived by applying Bayes&#39; rule:
+$$\pi(\theta \mid y)=\frac{\pi(\theta) f(y ; \theta)}{\int_{\Omega_{\theta}} \pi\left(\theta^{\prime}\right) f\left(y ; \theta^{\prime}\right) d \theta^{\prime}}$$
+$$\pi(\theta|y)\propto\pi(\theta)f(y;\theta)$$
+$$\text{posterior}\propto\text{prior}\times\text{likelihood}$$
+The general form of Bayes rule To minimize the Bayes risk $r(\pi,d))$ is equivalent to minimize $$\int_{\Omega_{\theta}} L(\theta, d(y)) \pi(\theta \mid y) d \theta$$
+James-Stein estimator $$d^{a}(Y)=\left(1-\frac{a}{\|Y\|^{2}}\right) Y$$</description>
+    </item>
+    
+    <item>
+      <title>如何洗碗又快又干净</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/21/wash-dish/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/21/wash-dish/</guid>
+      <description> refer to Zhi hu
+ 步骤  吃完马上洗 or 拿水先泡着（确保浸没） 温水 洗碗布弄湿，洗洁精倒在洗碗布上 里外擦一遍，放到一边 洗下一个碗，摞在前一个碗上，洗碗布不用沾水 对所有碗进行重复操作，然后同理用洗碗布擦洗锅、铲、刀之类的厨具、餐桌和料理台。 擦洗完毕后，在水龙头下冲洗碗布 将初步洗净的碗、厨具，依次放在流动的水龙头下冲洗，用手抚一遍 用冲洗干净的洗碗布松松拧一下，擦餐桌和料理台。 洗碗布拧干，再擦一遍餐桌和料理台。 洗干净洗碗布，晾干。  有条件了买洗碗机（亚马逊上£250左右）
+目标： 洗两人份吃的锅碗，用时不超过10分钟
+记录  2021-12-21 10&#39;57  </description>
+    </item>
+    
+    <item>
+      <title>日记</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/21/diary/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/21/diary/</guid>
+      <description>专业课  完成FSI第三章的笔记整理 过完FSI的Problem set 1,2 看完PS最后一节课的video  读书  数学之美看了两章  需要改进的地方  早起！ PS 要开始做题了！  疑问  个人博客 post 文件夹下面的显示格式有问题  </description>
+    </item>
+    
+    <item>
+      <title>桂圆烧蛋</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/21/longan-egg/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/21/longan-egg/</guid>
+      <description> refer to 下厨房
+ 用料：鸡蛋、桂圆肉、冰糖、枸杞
+做法：
+ 用水冲洗桂圆肉 烧一锅水，放桂圆肉、冰糖 烧开后，小火炖15分钟 打一个鸡蛋进去，中火滚一会儿，小火焖一会儿 放入枸杞，出锅  Tips:
+ 冰糖最好用红糖代替 可以放红枣  </description>
+    </item>
+    
     <item>
       <title>Chrome 常用快捷键总结</title>
       <link>https://zhuxiaowei1998.github.io/note/2021/12/20/chrome-shortcut/</link>
@@ -24,9 +73,8 @@
       
       <guid>https://zhuxiaowei1998.github.io/note/2021/12/20/statistical-inference-1/</guid>
       <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
- What is statistical inference? Observational data modelled as observed values of random variables, to provide framework from which inductive conclusions may be drawn about mechanism giving rise to data.
-Types of inference  Point estimation Confidence set estimation Hypothesis testing  Three paradigms of inference  Bayesian Fisherian frequentist  Bayesian inference Unknown parameter $\theta$ treated as random variable.
-Key: specification of prior distribution on $\theta$, before data analysis.</description>
+ Approaches to Statistical Inference What is statistical inference? Observational data modelled as observed values of random variables, to provide framework from which inductive conclusions may be drawn about mechanism giving rise to data.
+Types of inference  Point estimation Confidence set estimation Hypothesis testing  Three paradigms of inference  Bayesian Fisherian frequentist  Bayesian inference Unknown parameter $\theta$ treated as random variable.</description>
     </item>
     
     <item>
@@ -36,7 +84,7 @@ Key: specification of prior distribution on $\theta$, before data analysis.</des
       
       <guid>https://zhuxiaowei1998.github.io/note/2021/12/20/statistical-inference-2/</guid>
       <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
- Formulation Elements of a formal decision problem:
+ Decision Theory Formulation Elements of a formal decision problem:
  Parameter space. $\Omega_\theta$ Sample space $\mathcal{Y}$. $y = (y_1,\cdots,y_n)\in\mathbb{R}^n$ Family of distributions. $\{\mathbb{P}_\theta(y),y\in\mathcal{Y},\theta\in\Omega_\theta\}$ Action space $\mathcal{A}$. Loss function $L$. Function $L:\Omega_\theta\times\mathcal{A}\rightarrow\mathbb{R}$. Decision rule $d$. Function $d:\mathcal{Y}\rightarrow\mathcal{A}$.  Risk Function $$R(\theta, d)=\mathbb{E}_{\theta} L(\theta, d(Y))=\int_{\mathcal{Y}} L(\theta, d(y)) f(y ; \theta) d y$$
 Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$ Absolute error loss function: $$L(\theta,a) = |\theta-a|$$</description>
     </item>
@@ -69,7 +117,16 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://zhuxiaowei1998.github.io/posts/principle/</guid>
-      <description>这里写 principle</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日记</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/20/diary/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/20/diary/</guid>
+      <description>专业课  完成FSI第一章和第二章的笔记整理  整理总结  Chrome 快捷键的整理 Windows 快捷键的整理 有相似之处！ Chrome的书签是个好东西，可以整理很多网页！  something useful  vs code 里面的 Code Spell Checker Extension 可以检查拼写！ mathjax数学公式用法  </description>
     </item>
     
     <item>
@@ -82,23 +139,14 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
     </item>
     
     <item>
-      <title>Friends&#39; Links</title>
+      <title>Links</title>
       <link>https://zhuxiaowei1998.github.io/links/</link>
       <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://zhuxiaowei1998.github.io/links/</guid>
-      <description>  高哥
+      <description>我的兔兔：  宝贝  我的朋友们（包括但不限于）：   高哥
   天真
   </description>
-    </item>
-    
-    <item>
-      <title>Zhuxiaowei&#39;s home page</title>
-      <link>https://zhuxiaowei1998.github.io/posts/2021-12-19-welcome/</link>
-      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhuxiaowei1998.github.io/posts/2021-12-19-welcome/</guid>
-      <description>高哥，天真，你们好！</description>
     </item>
     
     <item>
@@ -111,7 +159,9 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
 本个人主页采用hugo，关于Hugo的简单教程在这里，模板参考谢益辉使用的hugo-ivy，网站建立的教程参考该youtube视频。谢益辉写的blogdown和hugo-ivy的一些说明在这里。
 日后如需更新文档，输入以下git代码：
 &amp;gt;hugo &amp;gt;cd public &amp;gt;git remote -v &amp;gt;git status &amp;gt;git add . &amp;gt;git commit -m &amp;#34;add something&amp;#34; &amp;gt;git push origin main 输入公式:
-`$ $`</description>
+`$ $`
+插入图片：
+将图片放入 static/img 中</description>
     </item>
     
     <item>
@@ -120,20 +170,12 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
       <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://zhuxiaowei1998.github.io/note/2021/12/19/tea-eggs/</guid>
-      <description>用料：鸡蛋、茶叶、八角、桂皮、生抽、老抽、盐、糖
+      <description> refer to 下厨房
+ 用料：鸡蛋、茶叶、八角、桂皮、生抽、老抽、盐、糖
 用具：慢炖锅
 做法：
  将生鸡蛋煮熟 放入冰水浸泡20分钟，然后轻轻敲碎外壳 另起一锅，加水，放茶叶、八角、桂皮，倒生抽，老抽，放盐，放糖 煮10分钟，有香味后，放敲碎的鸡蛋，中火煮半小时 全部倒入慢炖锅，低档开一晚上  Tips:
  茶叶最好用红茶 鸡蛋敲碎一点，否则不入味  </description>
-    </item>
-    
-    <item>
-      <title>日记</title>
-      <link>https://zhuxiaowei1998.github.io/posts/diary/</link>
-      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhuxiaowei1998.github.io/posts/diary/</guid>
-      <description>专业课  完成FSI第一章和第二章的笔记整理  整理总结  Chrome 快捷键的整理 Windows 快捷键的整理 有相似之处！ Chrome的书签是个好东西，可以整理很多网页！  something useful  vs code 里面的 Code Spell Checker Extension 可以检查拼写！ mathjax数学公式用法  </description>
     </item>
     
   </channel>
