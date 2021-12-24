@@ -6,7 +6,84 @@
     <description>Recent content in Notes on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>帮高哥申PhD！</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/24/apply-phd/</link>
+      <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/24/apply-phd/</guid>
+      <description>上上策 去国外读PhD，进谷歌、亚马逊
+论文： 发一两篇论文
+语言：  目标：托福100 首做：阅读24，听力20 研二暑假考  推荐人  闫亮 实习老板 李铁香、王海兵  信息搜集  知乎 一亩三分地  时间线  2021-12-24讨论  找学长学姐、老师、老板，交流有申国外phd的想法，听听他们的意见</description>
+    </item>
+    
+    <item>
+      <title>日记</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/24/diary/</link>
+      <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/24/diary/</guid>
+      <description>专业课  过完FSI Problem set 4 PS 16-17和17-18的往年卷过完  读书  数学之美读了两章  需要改进的地方  专注 提高效率  插曲 突然停电了
+随记 今天看了youtube上meta公司关于元宇宙的视频，个人不是很看好元宇宙，感觉可能是个骗局。扎克伯格像是在画一个大饼，更多的可能是在炒概念，而没有推出实质性的产品。不过还是不得不感叹技术发展日新月异。作为一个现代人，在高速发展的时代，很容易迷失自我，更需要经常问问自己，什么是自己真正想要的？作为一个求职者，是追随时代新潮流，不断寻找风口；还是静心沉淀，努力耕耘好自己的一亩三分地？作为一个产品经理，什么是一个好的产品？产品的价值体现在何处？作为一个企业家，需要打造一个什么样的企业？企业的价值观是什么？</description>
+    </item>
+    
+    <item>
+      <title>Statistical inference 6</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/23/statistical-inference-6/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/23/statistical-inference-6/</guid>
+      <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+ Key Element of Frequentist Theory Fundamental characteristic Explicit optimality criteria.
+ Hypothesis testing: seek test which maximizes power. Point estimation: seek estimator which minimizes risk.  Classical approach Adopt the following criterion: fix a small probability $\alpha$ (known as the size) and seek a test for which
+$$\mathbb{P}_{\theta}\left\{\text { Reject } H_{0}\right\} \leq \alpha \quad \text { for all } \theta \in \Theta_{0}$$</description>
+    </item>
+    
+    <item>
+      <title>日记</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/23/diary/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/23/diary/</guid>
+      <description>专业课  完成FSI第六的笔记整理  生活  拖地 清洗浴室下水道  需要改进的地方 专注于做事情！</description>
+    </item>
+    
+    <item>
+      <title>Statistical inference 4</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/22/statistical-inference-4/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/22/statistical-inference-4/</guid>
+      <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+ Special Families of Models Exponential Families Suppose that $Y$ depends on parameter $\phi = (\phi^1,\cdots,\phi^m)^T$, to be called natural parameters, through a density of the form
+$$f_{Y}(y ; \phi)=h(y) \exp \left\{s^{T} \phi-K(\phi)\right\}, \quad y \in \mathcal{Y}$$
+where $\mathcal{Y}$ is a set not depending on $\phi$. Here $s \equiv s(y)=\left(s_{1}(y), \ldots, s_{m}(y)\right)^{T}$, are called natural statistics.
+$$E\left(S_{i} ; \phi\right)=\frac{\partial K(\phi)}{\partial \phi^{i}}$$
+$$\operatorname{cov}\left(S_{i}, S_{j} ; \phi\right)=\frac{\partial^{2} K(\phi)}{\partial \phi^{i} \partial \phi^{j}}$$</description>
+    </item>
+    
+    <item>
+      <title>Statistical inference 5</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/22/statistical-inference-5/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/22/statistical-inference-5/</guid>
+      <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+ Principles of Inference and Data Reduction Likelihood Likelihood function: $$L(\theta;y) = f_Y(y;\theta)$$ Log-likelihood: $$I(\theta;y) = \log f_Y(y;\theta)$$
+Likelihood Principle The (strong) likelihood principle is that if $y$ and $z$ give proportional likelihood functions, the conclusions drawn from y and z should be identical, assuming adequacy of both models.
+If, for all $\theta\in\Omega_\theta$, $$f_Y(y;\theta) = h(y,z)f_Z(z;\theta)$$ identical conclusions about $\theta$ should be drawn from $y$ and $z$.</description>
+    </item>
+    
+    <item>
+      <title>日记</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/22/diary/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/22/diary/</guid>
+      <description>专业课  完成FSI第四章、第五章的笔记整理 过完FSI的Problem set 3  机器学习  logistic regression 实现  读书  数学之美读了两章  生活  理发  需要改进的地方  看PfS！  </description>
+    </item>
+    
     <item>
       <title>Statistical inference 3</title>
       <link>https://zhuxiaowei1998.github.io/note/2021/12/21/statistical-inference-3/</link>

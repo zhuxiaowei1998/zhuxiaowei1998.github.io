@@ -2,40 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhuxiaowei1998.github.io/tags/bayesian-method/</loc>
-    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zhuxiaowei1998.github.io/categories/</loc>
+    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/categories/diary/</loc>
+    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/categories/friends/</loc>
+    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/</loc>
+    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/</loc>
+    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/phd/</loc>
+    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/</loc>
+    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2021/12/24/apply-phd/</loc>
+    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2021/12/24/diary/</loc>
+    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/power-function/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/similar-tests/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/statistical-inference/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2021/12/23/statistical-inference-6/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/categories/statistics/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/ump/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/umpu/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2021/12/23/diary/</loc>
+    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/completeness/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/exponential-families/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2021/12/22/statistical-inference-4/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2021/12/22/statistical-inference-5/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/sufficiency/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/transformation-families/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2021/12/22/diary/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/bayesian-method/</loc>
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/tags/cooking/</loc>
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zhuxiaowei1998.github.io/categories/diary/</loc>
-    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zhuxiaowei1998.github.io/tags/efficiency/</loc>
-    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhuxiaowei1998.github.io/</loc>
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/categories/life/</loc>
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zhuxiaowei1998.github.io/note/</loc>
-    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhuxiaowei1998.github.io/tags/statistical-inference/</loc>
-    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zhuxiaowei1998.github.io/note/2021/12/21/statistical-inference-3/</loc>
-    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhuxiaowei1998.github.io/categories/statistics/</loc>
-    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhuxiaowei1998.github.io/tags/</loc>
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/note/2021/12/21/wash-dish/</loc>

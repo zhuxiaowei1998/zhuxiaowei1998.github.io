@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Statistical inference 4 - Xiaowei</title>
+    <meta property="og:title" content="Statistical inference 4 - Xiaowei">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+[&amp;hellip;] Suppose that $Y$ depends on parameter $\phi = (\phi^1,\cdots,\phi^m)^T$, to be called natural parameters, &amp;hellip;">
+      <meta property="og:description" content="Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+[&amp;hellip;] Suppose that $Y$ depends on parameter $\phi = (\phi^1,\cdots,\phi^m)^T$, to be called natural parameters, &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="note">
+    <header class="masthead">
+      <h1><a href="/">Xiaowei</a></h1>
+
+<p class="tagline">An unexamined life is not worth living.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" hidden/>
+  <label id="menu-label" for="menu-check" class="unselectable" hidden>
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/links/">Links</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Statistical inference 4</h1>
+
+<h3>Xiaowei Zhu
+  /  2021-12-22</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<blockquote>
+<p>Reference: Fundamentals of Statistical Inference&mdash;&mdash;G.Alastair Young</p>
+</blockquote>
+<h1 id="special-families-of-models">Special Families of Models</h1>
+<h2 id="exponential-familieshttpsenwikipediaorgwikiexponential_family"><a href="https://en.wikipedia.org/wiki/Exponential_family">Exponential Families</a></h2>
+<p>Suppose that <code>$Y$</code> depends on parameter <code>$\phi = (\phi^1,\cdots,\phi^m)^T$</code>, to be called natural parameters, through a density of the form</p>
+<p><code>$$f_{Y}(y ; \phi)=h(y) \exp \left\{s^{T} \phi-K(\phi)\right\}, \quad y \in \mathcal{Y}$$</code></p>
+<p>where <code>$\mathcal{Y}$</code> is a set not depending on <code>$\phi$</code>. Here <code>$s \equiv s(y)=\left(s_{1}(y), \ldots, s_{m}(y)\right)^{T}$</code>, are called natural statistics.</p>
+<p><code>$$E\left(S_{i} ; \phi\right)=\frac{\partial K(\phi)}{\partial \phi^{i}}$$</code></p>
+<p><code>$$\operatorname{cov}\left(S_{i}, S_{j} ; \phi\right)=\frac{\partial^{2} K(\phi)}{\partial \phi^{i} \partial \phi^{j}}$$</code></p>
+<h2 id="transformation-families">Transformation families</h2>
+<p>A transformation family is defined by a group of transformations acting on the sample space which generates a family of distributions all of the same form, but with different values of the parameters.</p>
+<h3 id="maximal-invariant">Maximal invariant</h3>
+<p>We say that the statistic <code>$t$</code> is invariant to the action of the group <code>$G$</code> if its value does not depend on whether <code>$y$</code> or <code>$g(y)$</code> was observed, for any <code>$g\in G:t(y)=t(g(y))$</code></p>
+<p>The statistic <code>$t$</code> is maximal invariant if every other invariant statistic is a function of it, or equivalently, <code>$t(y) = t(y')$</code> implies that <code>$y'=g(y)$</code> for some <code>$g\in G$</code>.</p>
+<h3 id="distribution-constant">Distribution constant</h3>
+<p><code>$T = t(Y)$</code> does not depend on the parameter.</p>
+<h3 id="equivariant-statistic">Equivariant statistic</h3>
+<p>A statistic <code>$S = s(Y)$</code> defined on <code>$Y$</code> and taking values in the parameter space <code>$\Omega_\theta$</code> is said to be equivariant if <code>$s(g_\theta(y)) = \bar{g}_\theta(s(y))$</code> for all <code>$g_\theta\in G$</code> and <code>$y\in\mathcal{Y}$</code></p>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/note/2021/12/22/statistical-inference-5/">Statistical inference 5</a></span>
+  <span class="nav-next"><a href="/note/2021/12/23/diary/">日记</a> &rarr;</span>
+</nav>
+
+
+
+
+
+<script src="//yihui.org/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.org/js/center-img.js"></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">© <a href="https://zhuxiaowei1998.github.io/">Xiaowei Zhu</a> 2021</div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UMPU on Xiaowei</title>
+    <link>https://zhuxiaowei1998.github.io/tags/umpu/</link>
+    <description>Recent content in UMPU on Xiaowei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/tags/umpu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statistical inference 6</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/23/statistical-inference-6/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/23/statistical-inference-6/</guid>
+      <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+ Key Element of Frequentist Theory Fundamental characteristic Explicit optimality criteria.
+ Hypothesis testing: seek test which maximizes power. Point estimation: seek estimator which minimizes risk.  Classical approach Adopt the following criterion: fix a small probability $\alpha$ (known as the size) and seek a test for which
+$$\mathbb{P}_{\theta}\left\{\text { Reject } H_{0}\right\} \leq \alpha \quad \text { for all } \theta \in \Theta_{0}$$</description>
+    </item>
+    
+  </channel>
+</rss>

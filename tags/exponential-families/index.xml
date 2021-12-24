@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>exponential families on Xiaowei</title>
+    <link>https://zhuxiaowei1998.github.io/tags/exponential-families/</link>
+    <description>Recent content in exponential families on Xiaowei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/tags/exponential-families/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statistical inference 4</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/22/statistical-inference-4/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/22/statistical-inference-4/</guid>
+      <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+ Special Families of Models Exponential Families Suppose that $Y$ depends on parameter $\phi = (\phi^1,\cdots,\phi^m)^T$, to be called natural parameters, through a density of the form
+$$f_{Y}(y ; \phi)=h(y) \exp \left\{s^{T} \phi-K(\phi)\right\}, \quad y \in \mathcal{Y}$$
+where $\mathcal{Y}$ is a set not depending on $\phi$. Here $s \equiv s(y)=\left(s_{1}(y), \ldots, s_{m}(y)\right)^{T}$, are called natural statistics.
+$$E\left(S_{i} ; \phi\right)=\frac{\partial K(\phi)}{\partial \phi^{i}}$$
+$$\operatorname{cov}\left(S_{i}, S_{j} ; \phi\right)=\frac{\partial^{2} K(\phi)}{\partial \phi^{i} \partial \phi^{j}}$$</description>
+    </item>
+    
+    <item>
+      <title>Statistical inference 5</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/22/statistical-inference-5/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/22/statistical-inference-5/</guid>
+      <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+ Principles of Inference and Data Reduction Likelihood Likelihood function: $$L(\theta;y) = f_Y(y;\theta)$$ Log-likelihood: $$I(\theta;y) = \log f_Y(y;\theta)$$
+Likelihood Principle The (strong) likelihood principle is that if $y$ and $z$ give proportional likelihood functions, the conclusions drawn from y and z should be identical, assuming adequacy of both models.
+If, for all $\theta\in\Omega_\theta$, $$f_Y(y;\theta) = h(y,z)f_Z(z;\theta)$$ identical conclusions about $\theta$ should be drawn from $y$ and $z$.</description>
+    </item>
+    
+  </channel>
+</rss>
