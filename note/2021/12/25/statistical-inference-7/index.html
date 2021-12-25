@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Statistical inference 7 - Xiaowei</title>
+    <meta property="og:title" content="Statistical inference 7 - Xiaowei">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+[&amp;hellip;] After observing $x$, the likelihood function is defined by
+$$L(\theta) \equiv L(\theta ; x)=f(x ; \theta)$$ &amp;hellip;">
+      <meta property="og:description" content="Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+[&amp;hellip;] After observing $x$, the likelihood function is defined by
+$$L(\theta) \equiv L(\theta ; x)=f(x ; \theta)$$ &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="note">
+    <header class="masthead">
+      <h1><a href="/">Xiaowei</a></h1>
+
+<p class="tagline">An unexamined life is not worth living.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" hidden/>
+  <label id="menu-label" for="menu-check" class="unselectable" hidden>
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/links/">Links</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Statistical inference 7</h1>
+
+<h3>Xiaowei Zhu
+  /  2021-12-25</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<blockquote>
+<p>Reference: Fundamentals of Statistical Inference&mdash;&mdash;G.Alastair Young</p>
+</blockquote>
+<h1 id="likelihood-theory">Likelihood Theory</h1>
+<h2 id="maximum-likelihood-estimator">Maximum likelihood estimator</h2>
+<p>After observing <code>$x$</code>, the likelihood function is defined by</p>
+<p><code>$$L(\theta) \equiv L(\theta ; x)=f(x ; \theta)$$</code></p>
+<p>viewed as a function of <code>$\theta$</code> for the fixed <code>$x$</code>.</p>
+<p>The maximum likelihood estimate (MLE) <code>$\hat{\theta}(x)$</code> is defined to be the value of <code>$\theta$</code> which maximizes <code>$L(\theta)$</code>.</p>
+<h2 id="log-likelihood">Log-likelihood</h2>
+<p>Usually we work with the log-likelihood
+<code>$$I(\theta) \equiv I(\theta ; x)=\log L(\theta)$$</code></p>
+<h2 id="score-function-and-information">Score function and information</h2>
+<p>We define the score function by</p>
+<p><code>$$u(\theta ; x)=\nabla_{\theta} I(\theta ; x)$$</code></p>
+<h2 id="covariance-matrix-of-score">Covariance matrix of score</h2>
+<p><code>\begin{aligned} \operatorname{cov}_{\theta} &amp;\left\{U_{r}(\theta), U_{s}(\theta)\right\} \\ &amp;=\mathbb{E}_{\theta}\left\{\frac{\partial I(\theta ; X)}{\partial \theta_{r}} \frac{\partial I(\theta ; X)}{\partial \theta_{s}}\right\} \\ &amp;=\mathbb{E}_{\theta}\left\{-\frac{\partial^{2} I(\theta ; X)}{\partial \theta_{r} \partial \theta_{s}}\right\} \end{aligned}</code></p>
+<h2 id="the-cramér-rao-lower-bound">The Cramér-Rao Lower Bound</h2>
+<p>Let <code>$W(X)$</code> be any estimator of <code>$\theta$</code> and let <code>$m(\theta) = \mathbb{E}_\theta\{W(X)\}$</code></p>
+<p>Define 
+<code>$$Y=W(X),\quad Z = \frac{\partial}{\partial\theta}\log f(X;\theta)$$</code>
+Then
+<code>$$\operatorname{var}\{W(X)\} \geq \frac{\left\{m^{\prime}(\theta)\right\}^{2}}{i(\theta)}$$</code></p>
+<h2 id="asymptotic-properties-of-mles">Asymptotic properties of MLEs</h2>
+<h3 id="consistency">Consistency</h3>
+<p>Let <code>$\widehat{\theta}_n$</code> denote an estimator of a parameter <code>$\theta$</code> based on a sample of size <code>$n$</code>. We say that <code>$\hat{\theta}_n$</code> is weakly consistent if <code>$\widehat{\theta}_{n} \stackrel{p}{\longrightarrow} \theta$</code> and strongly consistent if <code>$\widehat{\theta}_{n} \stackrel{a.s}{\longrightarrow} \theta$</code></p>
+<h3 id="asymptotic-distribution-of-the-mle">Asymptotic distribution of the MLE</h3>
+<p><code>$$\sqrt{n i_{1}\left(\theta_{0}\right)}\left(\widehat{\theta}_{n}-\theta_{0}\right) \stackrel{d}{\longrightarrow} N(0,1) .$$</code></p>
+<h2 id="likelihood-ratio-tests-and-wilks-theorem">Likelihood ratio tests and Wilks’ Theorem</h2>
+<p>Letting <code>$L(\theta)$</code> denote the likelihood function and <code>$\Theta_0$</code> the subset of <code>$\Omega_\theta$</code> satisfying the constraints,</p>
+<p><code>$$H_{0}: \theta_{1}=\theta_{1}^{0}, \ldots, \theta_{m}=\theta_{m}^{0}$$</code></p>
+<p>we write
+<code>$$L_{0}=\sup \left\{L(\theta): \theta \in \Theta_{0}\right\}, \quad L_{1}=\sup \left\{L(\theta): \theta \in \Omega_{\theta}\right\}$$</code>
+and define the likelihood ratio statistic
+<code>$$T_n = 2\log\left(\frac{L_1}{L_0}\right)$$</code>
+where the notation indicates dependence on the the sample size <code>$n$</code>.</p>
+<p>Suppose the model satisfies the same regularity conditions as are needed for the asymptotic properties of the MLE— in particular, we require that <code>L(\theta)</code> be at least twice continuously differentiable in all its components in some neighborhood of the true value of <code>$\theta$</code>, and that the Fisher information matrix be well-defined and invertible.</p>
+<p>Suppose <code>$H_0$</code> is true. Then as <code>$n\rightarrow\infty$</code>,
+<code>$$T_{n} \stackrel{d}{\longrightarrow} \chi_{m}^{2}$$</code></p>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/note/2021/12/25/diary/">日记</a></span>
+  <span class="nav-next"></span>
+</nav>
+
+
+
+
+
+<script src="//yihui.org/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.org/js/center-img.js"></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">© <a href="https://zhuxiaowei1998.github.io/">Xiaowei Zhu</a> 2021</div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

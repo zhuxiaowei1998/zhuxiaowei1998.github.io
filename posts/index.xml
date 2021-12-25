@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>名人名言</title>
+      <link>https://zhuxiaowei1998.github.io/posts/sentences/</link>
+      <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/posts/sentences/</guid>
+      <description>苟有恒,何必三更眠五更起；最无益,莫过一日曝十日寒。——胡居仁《自勉联》
+（毛泽东在长沙读书时化用：贵有恒，何必三更起五更眠；最无益，只怕一日曝十日寒）</description>
+    </item>
+    
     <item>
       <title>to do list</title>
       <link>https://zhuxiaowei1998.github.io/posts/to-do-list/</link>
@@ -16,7 +26,7 @@
       <description>Christmas Plan
  制作个人博客 整理完FSI每一章节的内容，写进Blog 过完FSI所有的problem sets 做完所有FSI往年的卷子，校对答案，过程记录在notability上 过完PS所有的notes 做完所有PS往年的卷子，校对答案，过程记录在notability上 过完PS所有的exercise 牛客网上leetcode刷到100题 百面机器学习过完 《统计学习》公式推导 《数学之美》看完，做摘录  Christmas week 1
  整理FSI每一章的笔记 PS所有exercise过完，难点做标记 数学之美看完7章 隐马尔科夫模型 理发  book list
- 《金字塔原理》 《财务自由之路》  </description>
+ 《金字塔原理》 《财务自由之路》 ing  </description>
     </item>
     
     <item>
@@ -25,7 +35,8 @@
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://zhuxiaowei1998.github.io/posts/principle/</guid>
-      <description></description>
+      <description>不要安逸！
+拒绝无效重复</description>
     </item>
     
   </channel>

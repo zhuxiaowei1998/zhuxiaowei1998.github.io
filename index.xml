@@ -6,7 +6,114 @@
     <description>Recent content in Home on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statistical inference 7</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/25/statistical-inference-7/</link>
+      <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/25/statistical-inference-7/</guid>
+      <description>Reference: Fundamentals of Statistical Inference&amp;mdash;&amp;mdash;G.Alastair Young
+ Likelihood Theory Maximum likelihood estimator After observing $x$, the likelihood function is defined by
+$$L(\theta) \equiv L(\theta ; x)=f(x ; \theta)$$
+viewed as a function of $\theta$ for the fixed $x$.
+The maximum likelihood estimate (MLE) $\hat{\theta}(x)$ is defined to be the value of $\theta$ which maximizes $L(\theta)$.
+Log-likelihood Usually we work with the log-likelihood $$I(\theta) \equiv I(\theta ; x)=\log L(\theta)$$
+Score function and information We define the score function by</description>
+    </item>
+    
+    <item>
+      <title>名人名言</title>
+      <link>https://zhuxiaowei1998.github.io/posts/sentences/</link>
+      <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/posts/sentences/</guid>
+      <description>苟有恒,何必三更眠五更起；最无益,莫过一日曝十日寒。——胡居仁《自勉联》
+（毛泽东在长沙读书时化用：贵有恒，何必三更起五更眠；最无益，只怕一日曝十日寒）</description>
+    </item>
+    
+    <item>
+      <title>日记</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/25/diary/</link>
+      <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/25/diary/</guid>
+      <description>专业课  FSI 第七章整理完 FSI Problem set 5 过完  读书  《财务自由之路》三章 《金字塔原理》第一篇一章  机器学习  隐马尔科夫模型看了一节半  随记： 学习一个新的、重要的概念，至少要学习三遍。第一遍重在了解全貌，第二遍重在弄清所有细节，第三遍重在梳理逻辑关系。 在学习的过程中，要勤于记录，减少因遗忘而再度温习所需的时间成本。
+一有空余的时间，就去看书，减少刷手机、看直播的时间。
+Attention is all you need! 注意自己的注意力</description>
+    </item>
+    
+    <item>
+      <title>财务自由之路摘录</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/25/book-1/</link>
+      <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/25/book-1/</guid>
+      <description>理解真正的“财富自由” 能真正影响行动的关键，我们要的自由，最根本不是财富，财富只是工具，我们要的自由，本质是时间的自主权。
+个人财富自由，指的是某个人再也不用为了满足生活必需而出售自己的时间了。
+专注成长而不是专注成功
+财富自由不是终点，那只是通往终点过程中的一个里程碑而已。
+清晰且正确的概念是一切思考的基石。而衡量一个人是否聪明，几乎可以凝炼这两个条件：有没有足够多清晰、准确、正确的概念；概念之间有没有清晰、准确、正确的联系。
+“嫩”的一种表现：只知道自己不想要什么，却并不知道自己想要什么。
+我见过这种人，知道其实完全沒有谁可以帮上他们,他们自找的——任凭产生厌恶情绪的错误念头占领自己的大脑。
+出售时间的三条铁律 出售时间的三条铁律：成长才是根本关键，重视价值忽略估值，耐心比什么都重要。
+成长才是永恒的刚需。
+不要让自己的估值过分超过自己的实际价值。
+在你不得不用自己的时间为生活必需做交換的阶段，千万不要把一份工作随便想成一份工作，而是真的是在卖命。
+我们生命中发生的事情，都不应作为终点，而是里程碑。
+选择的判断标准有一个就足够了：我选择的事能不能让我积累更多的能力？
+还有一种和走向财富自由里程碑矛盾的，而且迷惑性更大的是，就是所谓稳定（可能还颇高薪）的工作。细想一下，稳定如同一张温床，不需要突破，也就不需要成长、不需要进一步学习。做这样的工作可能会有一些聊以自慰的成就感（多半来自稳定)，但是因为没有成长，而一辈子不可能跨越里程碑。
+真正正确的思考方式应该是：在这个选择之后，能帮我完善哪个已有能力，能让我获得什么新能力。
+因为当你在意估值的时候，你就会忘记你的价值，你就会不由自主做那些提高你估值的事，而不是去想办法提高你的价值。
+没耐心的人不会有好的积累，他们不会把每件事都当作自己的事来做；没耐心的人当然也更注重估值，甚至愿意为之而自欺和欺人，因为他们只能想到短期效益；没耐心的人甚至都不会思考真正重要的事价值。
+大多数的人仅仅是知道而已，只有极少数人执拗地、彻底地、不折不扣地执行了这些原则……
+阻碍财富自由的三大坑 三个大坑：莫名其妙地凑热闹，心急火燎地随大流，操碎了别人的心肝。
+你必须把最宝贵的注意力全部放在你自己身上的“成长”。
+创业就是成长。没有成长就不是创业。
+不珍惜自己注意力的人，最终注定是贫穷的，因为他们终生被收割，终生不可能有真正有价值的产出，怎么可能最终变得富有？
+那么多的人其实没什么正事儿可做，连读书都不会，闲得要死；大量闲置的时间杀掉，大量闲置的精力需要被发泄，大量的好奇心需要个喷射的出口……
+在任何一个大的趋势出现的时候，一定有另外一批人，早就准备好了——虽然可能并不是有意准备的。
+可惜，平日里只有一颗上进的心，一样滚烫，却从未有过积累的行动。
+什么是每个人都拥有的、最重要、却被人忽视了的宝贵财富？注意力。
+你的注意力，真的很少，一天下来，能够集中起来有产出的注意力，弄不好往往只有两三个小时而已，结果呢？结果你去凑热闹，你去随大流，你去操别人的心. . . 若是这样，不消说你能不能成功，仅仅&amp;quot;有收获&amp;quot;都是根本做不到的，不是吗？
+你必须把最宝贵的注意力全部放在你自己身上。
+这世上有个很简单却又长期成功的商业模式：把海量的廉价甚至免费的注意力集中起来高价卖掉。
+你若是胆敢不在意你的注意力，你的注意力(事实上你的注意力其实就是真正有价值的你）就会被无情地收割起来然后被卖掉。</description>
+    </item>
+    
+    <item>
+      <title>金字塔原理摘录</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/25/book-2/</link>
+      <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/25/book-2/</guid>
+      <description>表达的逻辑 对受众（包括读者、听众、观众或学员）来说，最容易理解的顺序是：先了解主要的、抽象的思想，然后了解次要的、为主要思想提供支持的思想。
+为什么要采用金字塔结构 归类分组，构建金字塔式思维结构
+只有金字塔结构才能满足大脑的两个需求：
+ 一次记忆不超过7个思想、概念或项目。 找出逻辑关系。  大脑的短期记忆无法一次容纳7个以上的记忆项目。有的人可能一次能记住9个项目，而有的人只能记住5个。大脑比较容易记住的是3个项目，当然最容易记住的是1个项目。
+找出逻辑关系，抽象概括
+最有效的方法是：先提出总的概念，再列出具体项目，即自上而下地呈现思想。
+自上而下，结论先行
+清晰的顺序就是先提出总结性思想，再提出被总结的具体思想。先总结后具体的表达顺序，请一定要牢记。
+自下而上思考，总结概括
+因为演绎推理、发现因果关系、化整为零和归纳总结是大脑可以进行的仅有的4种分析活动，这4种顺序也是大脑可用于组织思想的仅有的4种顺序。
+要写出条理清晰的文章，关键就是在开始写作之前，先将你的思想放入金字塔结构中，并根据以上规则进行检验。
+组织思想基本上只有4种逻辑顺序：
+ 演绎顺序：大前提、小前提、结论； 时间（步骤）顺序：第一、第二、第三； 结构（空间）顺序：波士顿、纽约、华盛顿； 程度（重要性）顺序：最重要、次重要，等等。  </description>
+    </item>
+    
+    <item>
+      <title>隐马尔科夫模型</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/25/hmm/</link>
+      <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/25/hmm/</guid>
+      <description> refer to 《统计学习》——李航
+ 隐马尔科夫模型的基本概念 定义 隐马尔科夫模型由初始概率分布、状态转移概率分布、观测概率分布确定。（三要素）
+两个基本假设：
+ 齐次马尔科夫性假设 观测独立性假设  观测序列的生成过程 隐马尔科夫模型的三个基本问题  概率计算问题 学习问题 预测问题  概率计算算法 直接计算法 前向算法 后向算法 </description>
+    </item>
+    
     <item>
       <title>帮高哥申PhD！</title>
       <link>https://zhuxiaowei1998.github.io/note/2021/12/24/apply-phd/</link>
@@ -175,7 +282,7 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
       <description>Christmas Plan
  制作个人博客 整理完FSI每一章节的内容，写进Blog 过完FSI所有的problem sets 做完所有FSI往年的卷子，校对答案，过程记录在notability上 过完PS所有的notes 做完所有PS往年的卷子，校对答案，过程记录在notability上 过完PS所有的exercise 牛客网上leetcode刷到100题 百面机器学习过完 《统计学习》公式推导 《数学之美》看完，做摘录  Christmas week 1
  整理FSI每一章的笔记 PS所有exercise过完，难点做标记 数学之美看完7章 隐马尔科夫模型 理发  book list
- 《金字塔原理》 《财务自由之路》  </description>
+ 《金字塔原理》 《财务自由之路》 ing  </description>
     </item>
     
     <item>
@@ -194,7 +301,8 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://zhuxiaowei1998.github.io/posts/principle/</guid>
-      <description></description>
+      <description>不要安逸！
+拒绝无效重复</description>
     </item>
     
     <item>

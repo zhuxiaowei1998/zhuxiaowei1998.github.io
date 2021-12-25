@@ -2,25 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zhuxiaowei1998.github.io/categories/accumulation/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/categories/book-notes/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://zhuxiaowei1998.github.io/categories/</loc>
-    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/categories/diary/</loc>
-    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/finance/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/hidden-markov-chain/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/categories/machine-learning/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/personal-growth/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/posts/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/speech/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/statistical-inference/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2021/12/25/statistical-inference-7/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/categories/statistics/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/think/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/writing/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/posts/sentences/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2021/12/25/diary/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2021/12/25/book-1/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2021/12/25/book-2/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2021/12/25/hmm/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/categories/friends/</loc>
     <lastmod>2021-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zhuxiaowei1998.github.io/</loc>
-    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhuxiaowei1998.github.io/note/</loc>
-    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zhuxiaowei1998.github.io/tags/phd/</loc>
-    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhuxiaowei1998.github.io/tags/</loc>
     <lastmod>2021-12-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/note/2021/12/24/apply-phd/</loc>
@@ -35,13 +89,7 @@
     <loc>https://zhuxiaowei1998.github.io/tags/similar-tests/</loc>
     <lastmod>2021-12-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zhuxiaowei1998.github.io/tags/statistical-inference/</loc>
-    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zhuxiaowei1998.github.io/note/2021/12/23/statistical-inference-6/</loc>
-    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhuxiaowei1998.github.io/categories/statistics/</loc>
     <lastmod>2021-12-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/tags/ump/</loc>
@@ -126,9 +174,6 @@
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/tags/minimax/</loc>
-    <lastmod>2021-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhuxiaowei1998.github.io/posts/</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/categories/principle/</loc>
