@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EM on Xiaowei</title>
+    <link>https://zhuxiaowei1998.github.io/tags/em/</link>
+    <description>Recent content in EM on Xiaowei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/tags/em/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EM算法</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/26/em-gmm/</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/26/em-gmm/</guid>
+      <description>EM 目的： 对含有隐变量的模型进行极大似然估计
+算法： 主要有两步：
+ E步：求期望; $$Q\left(\theta, \theta^{(i)}\right)=E_{Z}\left[\log P(Y, Z \mid \theta) \mid Y, \theta^{(i)}\right]$$ M步，求极大 $$\theta^{(i+1)}=\arg \max _{\theta} Q\left(\theta, \theta^{(i)}\right)$$  Tips 受初始值影响
+Gaussian Mixture Model (GMM) 定义： $$P(y \mid \theta)=\sum_{k=1}^{K} \alpha_{k} \phi\left(y \mid \theta_{k}\right)$$
+Tips GMM是EM算法的一个应用，可以用来解决聚类问题。</description>
+    </item>
+    
+  </channel>
+</rss>
