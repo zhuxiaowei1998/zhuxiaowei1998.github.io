@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>牛客网刷题记录 - Xiaowei</title>
+    <meta property="og:title" content="牛客网刷题记录 - Xiaowei">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="状态转移方程！
+[&amp;hellip;] 描述：给定一个 n * m 的矩阵 a，从左上角开始每次只能向右或者向下走，最后到达右下角的位置，路径上所有的数字累加起来就是路径和，输出所有的路径中最小的路径和。 要点：
+[&amp;hellip;] dp[i][j] = min(dp[i-1][j],dp[i][j-1]) &#43; matrix[i][j] 可先初始化第一行，第一列
+[&amp;hellip;] 边界的处理
+">
+      <meta property="og:description" content="状态转移方程！
+[&amp;hellip;] 描述：给定一个 n * m 的矩阵 a，从左上角开始每次只能向右或者向下走，最后到达右下角的位置，路径上所有的数字累加起来就是路径和，输出所有的路径中最小的路径和。 要点：
+[&amp;hellip;] dp[i][j] = min(dp[i-1][j],dp[i][j-1]) &#43; matrix[i][j] 可先初始化第一行，第一列
+[&amp;hellip;] 边界的处理
+">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="note">
+    <header class="masthead">
+      <h1><a href="/">Xiaowei</a></h1>
+
+<p class="tagline">An unexamined life is not worth living.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" hidden/>
+  <label id="menu-label" for="menu-check" class="unselectable" hidden>
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/links/">Links</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>牛客网刷题记录</h1>
+
+<h3>Xiaowei Zhu
+  /  2021-12-27</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h2 id="动态规划">动态规划</h2>
+<p>状态转移方程！</p>
+<h3 id="nc17-最长回文子串">NC17 最长回文子串</h3>
+<ol>
+<li>动态规划
+<code>$$P(i,j)=\begin{cases}1, &amp; \text{if s[i]-s[j]是回文串} \\ 0&amp; \text{else}\end{cases}$$</code>
+<code>$$P(i,j)=P(i+1,j-1)\wedge(s_i==s_j)$$</code></li>
+<li>中心扩展法（回文相关trick）</li>
+</ol>
+<h3 id="nc59-矩阵的最小路径和">NC59 矩阵的最小路径和</h3>
+<p>描述：给定一个 n * m 的矩阵 a，从左上角开始每次只能向右或者向下走，最后到达右下角的位置，路径上所有的数字累加起来就是路径和，输出所有的路径中最小的路径和。
+要点：</p>
+<ol>
+<li>构建dp矩阵，空间复杂度O(nm)，时间复杂度O(nm)。</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">dp[i][j] <span style="color:#f92672">=</span> min(dp[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][j],dp[i][j<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]) <span style="color:#f92672">+</span> matrix[i][j]
+</code></pre></div><p>可先初始化第一行，第一列</p>
+<ol start="2">
+<li>要使得空间复杂度为O(1)，只需原地修改。</li>
+</ol>
+<h2 id="tips">Tips</h2>
+<p>边界的处理</p>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/note/2021/12/26/em-gmm/">EM算法</a></span>
+  <span class="nav-next"><a href="/note/2021/12/27/diary/">日记</a> &rarr;</span>
+</nav>
+
+
+
+
+
+<script src="//yihui.org/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.org/js/center-img.js"></script>
+
+  
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+  
+  <hr>
+  <div class="copyright">© <a href="https://zhuxiaowei1998.github.io/">Xiaowei Zhu</a> 2021</div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

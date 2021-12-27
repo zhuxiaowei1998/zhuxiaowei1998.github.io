@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algorithm on Xiaowei</title>
+    <link>https://zhuxiaowei1998.github.io/categories/algorithm/</link>
+    <description>Recent content in algorithm on Xiaowei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>牛客网刷题记录</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/27/leetcode/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/27/leetcode/</guid>
+      <description>动态规划 状态转移方程！
+NC17 最长回文子串  动态规划 $$P(i,j)=\begin{cases}1, &amp;amp; \text{if s[i]-s[j]是回文串} \\ 0&amp;amp; \text{else}\end{cases}$$ $$P(i,j)=P(i+1,j-1)\wedge(s_i==s_j)$$ 中心扩展法（回文相关trick）  NC59 矩阵的最小路径和 描述：给定一个 n * m 的矩阵 a，从左上角开始每次只能向右或者向下走，最后到达右下角的位置，路径上所有的数字累加起来就是路径和，输出所有的路径中最小的路径和。 要点：
+ 构建dp矩阵，空间复杂度O(nm)，时间复杂度O(nm)。  dp[i][j] = min(dp[i-1][j],dp[i][j-1]) + matrix[i][j] 可先初始化第一行，第一列
+要使得空间复杂度为O(1)，只需原地修改。  Tips 边界的处理</description>
+    </item>
+    
+  </channel>
+</rss>

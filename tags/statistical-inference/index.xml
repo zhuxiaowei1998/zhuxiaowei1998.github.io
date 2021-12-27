@@ -6,7 +6,18 @@
     <description>Recent content in statistical inference on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/tags/statistical-inference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/tags/statistical-inference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statistical inference 8</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/27/statistical-inference-8/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/27/statistical-inference-8/</guid>
+      <description>Bayes Principles Risk Function $$R(\theta, d)=\mathbb{E}_{\theta} L(\theta, d(Y))=\int_{\mathcal{Y}} L(\theta, d(y)) f(y ; \theta) d y$$
+Bayes risk In the continuous case, the Bayes risk of a decision rule $d$ is defined to be $$r(\pi, d)=\int_{\theta \in \Omega_{\theta}} R(\theta, d) \pi(\theta) d \theta$$ In the discrete case, integral is replaced by a summation.
+Bayes rule A decision rule $d$ is said to be the Bayes rule(with respect to a given prior $\pi(\cdot)$) if it minimized the Bayes risk: if $$r(\pi, d)=\inf _{d^{\prime}} r\left(\pi, d^{\prime}\right)=m_{\pi} \text { say.</description>
+    </item>
+    
     <item>
       <title>Statistical inference 7</title>
       <link>https://zhuxiaowei1998.github.io/note/2021/12/25/statistical-inference-7/</link>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Statistical inference 8 - Xiaowei</title>
+    <meta property="og:title" content="Statistical inference 8 - Xiaowei">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="$$R(\theta, d)=\mathbb{E}_{\theta} L(\theta, d(Y))=\int_{\mathcal{Y}} L(\theta, d(y)) f(y ; \theta) d y$$
+[&amp;hellip;] In the continuous case, the Bayes risk of a decision rule $d$ is defined to be &amp;hellip;">
+      <meta property="og:description" content="$$R(\theta, d)=\mathbb{E}_{\theta} L(\theta, d(Y))=\int_{\mathcal{Y}} L(\theta, d(y)) f(y ; \theta) d y$$
+[&amp;hellip;] In the continuous case, the Bayes risk of a decision rule $d$ is defined to be &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="note">
+    <header class="masthead">
+      <h1><a href="/">Xiaowei</a></h1>
+
+<p class="tagline">An unexamined life is not worth living.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" hidden/>
+  <label id="menu-label" for="menu-check" class="unselectable" hidden>
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/links/">Links</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Statistical inference 8</h1>
+
+<h3>Xiaowei Zhu
+  /  2021-12-27</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h2 id="bayes-principles">Bayes Principles</h2>
+<h3 id="risk-function">Risk Function</h3>
+<p><code>$$R(\theta, d)=\mathbb{E}_{\theta} L(\theta, d(Y))=\int_{\mathcal{Y}} L(\theta, d(y)) f(y ; \theta) d y$$</code></p>
+<h3 id="bayes-risk">Bayes risk</h3>
+<p>In the continuous case, the Bayes risk of a decision rule <code>$d$</code> is defined to be 
+<code>$$r(\pi, d)=\int_{\theta \in \Omega_{\theta}} R(\theta, d) \pi(\theta) d \theta$$</code>
+In the discrete case, integral is replaced by a summation.</p>
+<h3 id="bayes-rule">Bayes rule</h3>
+<p>A decision rule <code>$d$</code> is said to be the Bayes rule(with respect to a given prior <code>$\pi(\cdot)$</code>) if it minimized the Bayes risk: if
+<code>$$r(\pi, d)=\inf _{d^{\prime}} r\left(\pi, d^{\prime}\right)=m_{\pi} \text { say. }$$</code>
+The Bayes principle says we should use the Bayes decision rule.</p>
+<h2 id="minimax-principles">Minimax Principles</h2>
+<h3 id="minimax-decision-rules">Minimax decision rules</h3>
+<p>The maximum risk of decision rule <code>$d$</code> is defined by
+<code>$$\operatorname{MR}(d)=\sup _{\theta} R(\theta, d)$$</code>
+A decision rule <code>$d$</code> is minimax if it minimizes the maximum risk:
+<code>$$\text{MR}(d)\leq\text{MR}(d')\quad\text{for all decision rules } d'$$</code></p>
+<p>So, <code>$d$</code> must satisfy
+<code>$$\sup _{\theta} R(\theta, d)=\inf _{d^{\prime}} \sup _{\theta} R\left(\theta, d^{\prime}\right)$$</code></p>
+<p>The minimax principle says we should use the minimax decision rule.</p>
+<h2 id="when-is-a-bayes-decision-rule-minimax">When is a Bayes decision rule minimax?</h2>
+<h3 id="theorem-21">Theorem 2.1</h3>
+<p>If <code>$\delta_n$</code> is Bayes with respect to prior <code>$\pi_n(\cdot)$</code>, and <code>$r(\pi_n,\delta_n)\rightarrow C$</code> as <code>$n\rightarrow\infty$</code>, and if <code>$R(\theta,\delta_0)\leq C$</code> for all <code>$\theta\in\Omega_\theta$</code>, then <code>$\delta_0$</code> is minimax.</p>
+<h3 id="theorem-22">Theorem 2.2</h3>
+<p>A decision rule <code>$d$</code> is an equaliser decision rule is <code>$R(\theta,d)$</code> is the same for every value of <code>$\theta$</code>.</p>
+<p>Then, an equaliser decision rule <code>$\delta_0$</code> which is extended Bayes must be minimax.</p>
+<h2 id="minimax-but-not-bayes">Minimax but not Bayes</h2>
+<h2 id="bayes-but-not-minimax">Bayes but not minimax</h2>
+<h2 id="least-favorable-prior">Least favorable prior</h2>
+<p>In a Bayes decision problem, a prior distribution <code>$\pi$</code> is said to be least favorable if <code>$r_\pi\geq r_{\pi'}$</code>, for all prior distributions <code>$\pi'$</code>, where <code>$r_\pi$</code> denotes the Bayes risk of the Bayes rule <code>$d_\pi$</code> with respect to <code>$\pi$</code>.</p>
+<h2 id="role-of-minimal-sufficiency-and-completeness">Role of minimal sufficiency and completeness</h2>
+<h2 id="importance-of-likelihood-principle">Importance of Likelihood Principle</h2>
+<h2 id="arguments-in-favour-of-the-conditionality-principle">Arguments in favour of the Conditionality Principle</h2>
+<h2 id="arguments-against-conditionality-principle">Arguments against Conditionality Principle</h2>
+<h2 id="when-is-the-conditionality-principle-relevant">When is the Conditionality Principle relevant?</h2>
+<h2 id="difficulties-in-application-of-the-conditionality-principle">Difficulties in application of the Conditionality Principle.</h2>
+<h2 id="arguments-for-and-against-use-of-bayes-factors">Arguments for and against use of Bayes factors</h2>
+<h2 id="methods-of-optimal-inference-in-full-exponential-families">Methods of optimal inference in full exponential families.</h2>
+<h2 id="ump-and-umpu-optimality-criteria">UMP and UMPU optimality criteria</h2>
+<h2 id="main-devices-used-for-dealing-with-nuisance-parameter">Main devices used for dealing with nuisance parameter</h2>
+<h2 id="why-are-likelihood-based-methods-of-inference-important">Why are likelihood-based methods of inference important?</h2>
+<h2 id="wald-score-and-likelihood-ratio-test">Wald, score and likelihood ratio test</h2>
+<h2 id="key-properties-of-mle">Key properties of MLE?</h2>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/note/2021/12/27/diary/">日记</a></span>
+  <span class="nav-next"></span>
+</nav>
+
+
+
+
+
+<script src="//yihui.org/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.org/js/center-img.js"></script>
+
+  
+
+  
+  <hr>
+  <div class="copyright">© <a href="https://zhuxiaowei1998.github.io/">Xiaowei Zhu</a> 2021</div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

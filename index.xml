@@ -6,7 +6,42 @@
     <description>Recent content in Home on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statistical inference 8</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/27/statistical-inference-8/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/27/statistical-inference-8/</guid>
+      <description>Bayes Principles Risk Function $$R(\theta, d)=\mathbb{E}_{\theta} L(\theta, d(Y))=\int_{\mathcal{Y}} L(\theta, d(y)) f(y ; \theta) d y$$
+Bayes risk In the continuous case, the Bayes risk of a decision rule $d$ is defined to be $$r(\pi, d)=\int_{\theta \in \Omega_{\theta}} R(\theta, d) \pi(\theta) d \theta$$ In the discrete case, integral is replaced by a summation.
+Bayes rule A decision rule $d$ is said to be the Bayes rule(with respect to a given prior $\pi(\cdot)$) if it minimized the Bayes risk: if $$r(\pi, d)=\inf _{d^{\prime}} r\left(\pi, d^{\prime}\right)=m_{\pi} \text { say.</description>
+    </item>
+    
+    <item>
+      <title>日记</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/27/diary/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/27/diary/</guid>
+      <description>专业课 看了FSI最后一节课的video，其中的很多内容还需要复习整理
+读书  《金字塔原理》如何构建金字塔 《财务自由之路》人生最重的枷锁是“安全感”，生活的根基“活在未来”  Leetcode 刷了两道编程题，最长回文子串、矩阵的最小路径和
+生活 买菜
+买菜、洗菜、做饭、吃饭、洗碗、消毒，这些日常生活琐事，真的是很占用时间，今天下午4点出去买了个菜，回来洗个澡，做饭，吃饭，洗碗，一套流程下来，已经快晚上8点了，4个小时就这么没了！真的很难让人接受这个事实。目前放假在公寓，一周至少要出去买两次菜，一天至少要花2个小时的时间在吃饭上。不过想想这似乎也是必须的。在这个疫情特别严重的特殊时期，消毒，不吃外卖，自己做饭，是最安全的。自己还是努力想办法提高自己的效率吧！</description>
+    </item>
+    
+    <item>
+      <title>牛客网刷题记录</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/27/leetcode/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/27/leetcode/</guid>
+      <description>动态规划 状态转移方程！
+NC17 最长回文子串  动态规划 $$P(i,j)=\begin{cases}1, &amp;amp; \text{if s[i]-s[j]是回文串} \\ 0&amp;amp; \text{else}\end{cases}$$ $$P(i,j)=P(i+1,j-1)\wedge(s_i==s_j)$$ 中心扩展法（回文相关trick）  NC59 矩阵的最小路径和 描述：给定一个 n * m 的矩阵 a，从左上角开始每次只能向右或者向下走，最后到达右下角的位置，路径上所有的数字累加起来就是路径和，输出所有的路径中最小的路径和。 要点：
+ 构建dp矩阵，空间复杂度O(nm)，时间复杂度O(nm)。  dp[i][j] = min(dp[i-1][j],dp[i][j-1]) + matrix[i][j] 可先初始化第一行，第一列
+要使得空间复杂度为O(1)，只需原地修改。  Tips 边界的处理</description>
+    </item>
+    
     <item>
       <title>EM算法</title>
       <link>https://zhuxiaowei1998.github.io/note/2021/12/26/em-gmm/</link>
@@ -120,7 +155,10 @@ Attention is all you need! 注意自己的注意力</description>
 我专注做事的时候，就是不该接受任何打扰的。等我停下来，休息的时候，可以顺手处理那些未读短信和未接来电。
 我用我的大量时间与她进行有效沟通，最终使得我不被无谓地干扰，让我的注意力有更多持续的机会，有更多产出的能量。这就是我的方法，花时间换取注意力持续。
 许多家庭不幸福的根本原因就是相互之间时间与注意力投资太少——就这么简单。
-想要别人主动接近你，最好的方法就是时不时做出令人敬佩的事情。</description>
+想要别人主动接近你，最好的方法就是时不时做出令人敬佩的事情。
+人生最重的枷锁是“安全感” 几乎所有的进步都是放弃了部分安全感才可能获得的。
+追求百分之百的安全感，肯定会把自己困在永恒的当下。
+我们必须放弃一部分安全感，才能深入长期地观察、思考。</description>
     </item>
     
     <item>
@@ -143,11 +181,21 @@ Attention is all you need! 注意自己的注意力</description>
 组织思想基本上只有4种逻辑顺序：
  演绎顺序：大前提、小前提、结论； 时间（步骤）顺序：第一、第二、第三； 结构（空间）顺序：波士顿、纽约、华盛顿； 程度（重要性）顺序：最重要、次重要，等等。  金字塔内部的结构 不要幻想一坐下来就能将思想组织成金字塔。首先你必须梳理想要表达的思想。
 金字塔中的子结构，能够加快你梳理思想的过程：
- 主题与子主题之间的纵向关系。 各子主题之间的横向关系。 序言的叙述方式。  纵向关系 你的回答仍然是向读者传递他不知道的新信息，这又会使读者产生新的疑问，于是你又需要在再下一个层次回答读者新的疑问。
+ 主题与子主题之间的纵向关系。 各子主题之间的横向关系。 序言的叙述方式。  纵向关系
+你的回答仍然是向读者传递他不知道的新信息，这又会使读者产生新的疑问，于是你又需要在再下一个层次回答读者新的疑问。
 你的每一个表述都应当引发读者的疑问，而你也必须在这一表述之下的层次上，在横向上逐个回答读者的疑问。
-横向关系 当考虑在下一结构层次上如何表述时，必须保证你的表述能回答上一个层次的表述引起的疑问，还必须保证符合逻辑。也就是说，表述必须具有明确的归纳或演绎关系，但不可既具有归纳关系，又具有演绎关系。在组织思想时，归纳和演绎是仅有的两种可能的逻辑关系。
-序言的结构 保证产生相关性的唯一办法，就是确保对话直接回答了你所发现的业已存在于读者头脑中的疑问。
-虽然写作的主要目的是告诉别人他们不知道的信息，但是，读者只有在需要了解这些他所不知道的信息时才会去寻找答案。如果读者没有这种需要，就不会提出任何疑问，也谈不上找答案，反之亦然。</description>
+横向关系
+当考虑在下一结构层次上如何表述时，必须保证你的表述能回答上一个层次的表述引起的疑问，还必须保证符合逻辑。也就是说，表述必须具有明确的归纳或演绎关系，但不可既具有归纳关系，又具有演绎关系。在组织思想时，归纳和演绎是仅有的两种可能的逻辑关系。
+序言的结构
+保证产生相关性的唯一办法，就是确保对话直接回答了你所发现的业已存在于读者头脑中的疑问。
+虽然写作的主要目的是告诉别人他们不知道的信息，但是，读者只有在需要了解这些他所不知道的信息时才会去寻找答案。如果读者没有这种需要，就不会提出任何疑问，也谈不上找答案，反之亦然。
+如何构建金字塔 自上而下法
+但是，你不能现在就坐下来开始写序言。应当先利用序言的结构，将头脑中的观点、论点、想法逐个梳理出来。
+采用自上而下法构建金字塔的步骤：
+ 提出主题思想。 设想受众的主要疑问。 写序言：背景—冲突—疑问—回答。 与受众进行疑问－回答式对话。 对受众的新疑问，重复进行疑问－回答式对话。  自下而上法
+自下而上思考：
+ 列出你想表达的所有思想要点。 找出各要点之间的逻辑关系。 得出结论。  初学者注意事项
+ 要先尝试自上而下法。 序言先写背景，将背景作为序言的起点。 多花点时间思考序言，不要省略这一步。 将背景放在序言中。 序言仅涉及读者不会对其真实性提出质疑的内容。 在关键句层次上，更宜选择归纳法而非演绎法。  </description>
     </item>
     
     <item>
@@ -329,7 +377,7 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
       <guid>https://zhuxiaowei1998.github.io/posts/to-do-list/</guid>
       <description>秋招前的计划  学好专业课 做好Project 拿到上海互联网大厂or外企or金融科技岗 offer 《百面机器学习》过完 《统计学习方法》过完 牛客网上Leetcode高频面试题刷完 牛客网上SQL题目刷完 认真参加一次Kaggle竞赛 春学期跟着上李宏毅的机器学习网课 Stanford NLP网课 春招投递简历试水 至少读完三本书、做好摘录，总结整理  Christmas Plan  制作个人博客 整理完FSI每一章节的内容，写进Blog 过完FSI所有的problem sets 做完所有FSI往年的卷子，校对答案，过程记录在notability上 过完PS所有的notes 做完所有PS往年的卷子，校对答案，过程记录在notability上 过完PS所有的exercise 牛客网上leetcode刷到100题 百面机器学习过完 《统计学习》公式推导 《数学之美》看完，做摘录  Christmas week 1
  整理FSI每一章的笔记 过完FSI每一个problem set（还差一个more detailed problems） PS所有exercise过完，难点做标记（过了两年的期末卷） 数学之美看完7章（看了金字塔原理和财务自由之路） 隐马尔科夫模型 理发  Christmas week 2
- FSI 最后的video 过完FSI所有往年卷 过完PS所有往年卷 过完PS一半的further exercise 动态规划专项刷完 统计学习方法看5章 金字塔原理看7章 财务自由之路看7章 新年祝福  book list
+ FSI 最后的video FSI 总结 过完FSI所有往年卷 过完PS所有往年卷 过完PS一半的further exercise 动态规划专项刷完 统计学习方法看5章 金字塔原理看7章 财务自由之路看7章 新年祝福  book list
  《金字塔原理》 《财务自由之路》 ing  </description>
     </item>
     
