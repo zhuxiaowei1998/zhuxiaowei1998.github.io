@@ -127,6 +127,9 @@ there exists a function <code>$t(y)$</code> such that the likelihood ratio</p>
 and 
 <code>$$\mathbb{E}_{\theta}\{\phi(Y)\} \geq \alpha \text { for all } \theta \in \Theta_{1}$$</code>
 A test which is uniformly most powerful amongst the class of all unbiased tests is uniformly most powerful unbiased, abbreviated UMPU.</p>
+<h2 id="conditionality-principle">Conditionality Principle</h2>
+<p>The minimal sufficient statistic for <code>$\theta$</code> is <code>$(Y, \delta)$</code>, and <code>$\delta$</code> has a distribution not depending on <code>$\theta$</code>.</p>
+<p>The Conditionality Principle argues that inference about <code>\theta</code> should be based on the conditional distribution of <code>$Y$</code> given <code>$\delta$</code>.</p>
 <h2 id="similar-tests">Similar tests</h2>
 <p>Suppose we have <code>$\theta = (\psi,\lambda)$</code>, with <code>$\psi$</code> the interest parameter and <code>$\lambda$</code>
 a nuisance parameter. Suppose the minimal sufficient statistic <code>$T = (S, C)$</code>, where the conditional distribution of <code>$S$</code> given <code>$C = c$</code>
@@ -145,6 +148,10 @@ Then <code>$\psi$</code> is called a similar test of size <code>$\alpha$</code>.
 <h2 id="a-general-result">A general result</h2>
 <p>Theorem. Let <code>$T$</code> be a complete sufficient statistic for a (vector)
 parameter <code>$\theta$</code>, and let <code>$\phi(T)$</code> be any estimator based only on <code>$T$</code>. Then <code>$\phi(T)$</code> is the UMVUE of its expectation.</p>
+<h2 id="bayes-factors">Bayes factors</h2>
+<p>Posterior Odds = Prior Odds × Bayes Factor.</p>
+<p>The Bayes factor in this case is defined as
+<code>$$B=\frac{\int_{\Theta_{0}} f(x ; \theta) g_{0}(\theta) d \theta}{\int_{\Theta_{1}} f(x ; \theta) g_{1}(\theta) d \theta}$$</code></p>
 <h2 id="bic">BIC</h2>
 <p>One method which can provide a rough measure of the evidence in favour of one model over another without reference to any prior distribution is provided by the Bayesian Information Criterion(BIC).</p>
 <p><code>$$\Delta B I C=W-\left(p_{2}-p_{1}\right) \log n$$</code></p>

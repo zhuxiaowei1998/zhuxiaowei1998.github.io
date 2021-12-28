@@ -94,12 +94,12 @@
 <code>$$L(\theta;y) = f_Y(y;\theta)$$</code>
 Log-likelihood:
 <code>$$I(\theta;y) = \log f_Y(y;\theta)$$</code></p>
-<h2 id="likelihood-principle">Likelihood Principle</h2>
+<h3 id="likelihood-principle">Likelihood Principle</h3>
 <p>The (strong) likelihood principle is that if <code>$y$</code> and <code>$z$</code> give proportional likelihood functions, the conclusions drawn from y and z should be identical, assuming adequacy of both models.</p>
 <p>If, for all <code>$\theta\in\Omega_\theta$</code>,
 <code>$$f_Y(y;\theta) = h(y,z)f_Z(z;\theta)$$</code>
 identical conclusions about <code>$\theta$</code> should be drawn from <code>$y$</code> and <code>$z$</code>.</p>
-<h2 id="sufficiency">Sufficiency</h2>
+<h2 id="sufficiencyhttpsenwikipediaorgwikisufficient_statisticminimal_sufficiency"><a href="https://en.wikipedia.org/wiki/Sufficient_statistic#Minimal_sufficiency">Sufficiency</a></h2>
 <p>Let the data <code>$y$</code> correspond to a random variable <code>$Y$</code> with density <code>$f_Y(y,\theta),\theta\in\Omega_\theta$</code>. Let <code>$s(y)$</code> be a statistic such that if <code>$S\equiv s(Y)$</code> denotes the corresponding random variable, then the conditional
 density of <code>$Y$</code> given <code>$S = s$</code> does not depend on <code>$\theta$</code>, for all <code>$s$</code>, so that</p>
 <p><code>$$f_{Y|S}(y|s;\theta)=g(y,s)$$</code></p>
@@ -113,7 +113,7 @@ density of <code>$Y$</code> given <code>$S = s$</code> does not depend on <code>
 <p>To identify minimal sufficient statistics,
 A statistic <code>$T$</code> is minimal sufficient iff
 <code>$$T(x)=T(y) \Leftrightarrow \frac{L\left(\theta_{1} ; x\right)}{L\left(\theta_{2} ; x\right)}=\frac{L\left(\theta_{1} ; y\right)}{L\left(\theta_{2} ; y\right)}, \quad \forall \theta_{1}, \theta_{2} \in \Omega_{\theta} .$$</code></p>
-<h2 id="completeness">Completeness</h2>
+<h2 id="completenesshttpsenwikipediaorgwikicompleteness_statistics"><a href="https://en.wikipedia.org/wiki/Completeness_(statistics)">Completeness</a></h2>
 <p>A sufficient statistic <code>$T(Y)$</code> is complete if for any real function <code>$g$</code>,
 <code>$$\mathbb{E}_{\theta}\{g(T)\}=0, \quad\text{for all }\theta$$</code>
 implies
@@ -124,7 +124,7 @@ implies
 <p>A component a of the minimal sufficient statistic such that the
 random variable A is distribution constant is said to be ancillary, or
 sometimes ancillary in the simple sense.</p>
-<p>The Conditionality Principle says that inference about parameter of interest, <code>$\theta$</code>, is to be made conditional on <code>$A = a$</code> i.e. on the basis of
+<p>The <a href="https://en.wikipedia.org/wiki/Conditionality_principle">Conditionality Principle</a> says that inference about parameter of interest, <code>$\theta$</code>, is to be made conditional on <code>$A = a$</code> i.e. on the basis of
 the conditional distribution of <code>$Y$</code> given <code>$A = a$</code>, its observed value,rather than from the model function <code>$f_Y(y;\theta)$</code>.</p>
 
 

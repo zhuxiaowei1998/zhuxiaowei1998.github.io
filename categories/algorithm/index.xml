@@ -13,10 +13,17 @@
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://zhuxiaowei1998.github.io/note/2021/12/27/leetcode/</guid>
-      <description>动态规划 状态转移方程！
-NC17 最长回文子串  动态规划 $$P(i,j)=\begin{cases}1, &amp;amp; \text{if s[i]-s[j]是回文串} \\ 0&amp;amp; \text{else}\end{cases}$$ $$P(i,j)=P(i+1,j-1)\wedge(s_i==s_j)$$ 中心扩展法（回文相关trick）  NC59 矩阵的最小路径和 描述：给定一个 n * m 的矩阵 a，从左上角开始每次只能向右或者向下走，最后到达右下角的位置，路径上所有的数字累加起来就是路径和，输出所有的路径中最小的路径和。 要点：
+      <description>动态规划 要点：
+ 如何定义$dp[i][j]$ 状态转移方程是什么？  NC17 最长回文子串 对于长度为n的一个字符串A（仅包含数字，大小写英文字母），请设计一个高效算法，计算其中最长回文子串的长度。
+ 动态规划 $$P(i,j)=\begin{cases}1, &amp;amp; \text{if s[i]-s[j]是回文串} \\ 0&amp;amp; \text{else}\end{cases}$$ $$P(i,j)=P(i+1,j-1)\wedge(s_i==s_j)$$ 中心扩展法（回文相关trick）  NC59 矩阵的最小路径和 描述：给定一个 n * m 的矩阵 a，从左上角开始每次只能向右或者向下走，最后到达右下角的位置，路径上所有的数字累加起来就是路径和，输出所有的路径中最小的路径和。 要点：
  构建dp矩阵，空间复杂度O(nm)，时间复杂度O(nm)。  dp[i][j] = min(dp[i-1][j],dp[i][j-1]) + matrix[i][j] 可先初始化第一行，第一列
-要使得空间复杂度为O(1)，只需原地修改。  Tips 边界的处理</description>
+要使得空间复杂度为O(1)，只需原地修改。  NC67 汉诺塔问题 整体与部分
+描述：我们有由底至上为从大到小放置的 n 个圆盘，和三个柱子（分别为左/中/右即left/mid/right），开始时所有圆盘都放在左边的柱子上，按照汉诺塔游戏的要求我们要把所有的圆盘都移到右边的柱子上，要求一次只能移动一个圆盘，而且大的圆盘不可以放到小的上面。
+请实现一个函数打印最优移动轨迹。
+ 将左柱上面的n-1个移到中柱 左柱剩下的一个移到右柱 中柱上的n-1个移到右柱  NC83 子数组最大乘积 给定一个double类型的数组arr，其中的元素可正可负可0，返回连续子数组累乘的最大乘积。
+dpp[i] = max(arr[i],arr[i]*dpp[i-1],arr[i]*dpn[i-1]) dpn[i] = min(arr[i],arr[i]*dpp[i-1],arr[i]*dpn[i-1]) NC127 最长公共子串 描述：给定两个字符串str1和str2,输出两个字符串的最长公共子串
+题目保证str1和str2的最长公共子串存在且唯一。
+ $dp[i][j]$:字符串str1中第i个字符和str2中第j个字符为最后一个元素所构成的最长公共子串的长度 转移方程  $$dp[i][j]=\begin{cases}0, &amp;amp; \text{if s[i]}\neq{s[j]} \\ dp[i-1][j-1] + 1&amp;amp; \text{else}\end{cases}$$</description>
     </item>
     
   </channel>
