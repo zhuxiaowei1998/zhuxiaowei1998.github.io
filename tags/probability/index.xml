@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>probability on Xiaowei</title>
+    <link>https://zhuxiaowei1998.github.io/tags/probability/</link>
+    <description>Recent content in probability on Xiaowei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/tags/probability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Probability</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/29/probability/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/29/probability/</guid>
+      <description>The Elements of Probability Theory Algebra and σ-algebra Borel σ-algebra Measure Probability measure Properties of the probability measure Monotone class theorem Caratheodory extension theorem Random Variables and Vectors Random variables Definition Proposition Random vectors Distribution function of a random variable Definition Proposition Distribution function of a random vector Definition Proposition Independence of random variables Independence of random vectors Integration and Expectation Lebesgue-Stieltjes integration Definition Proposition Fatou’s lemma Monotone convergence theorem Dominated convergence theorem Bounded convergence theorem Important inequalities Markov’s inequality Chebychev’s inequality Jensen’s inequality Hölder’s inequality Schwarz’s inequality Minkowski’s inequality Iterated integrals Tonelli’s theorem Fubini’s theorem) Densities Modes of Convergence Almost sure convergence Convergence in probability Convergence in $L^p$ Convergence in distribution Connection between modes of convergence Slutsky’s theorem Convergence of random vectors Multivariate Mann-Wald mapping theorem) Laws of Large Numbers Weak law of large numbers Strong law of large numbers Glivenko-Cantelli theorem) Central Limit Theorems Standard central limit theorem Lindeberg condition Lindeberg’s CLT Uniform asymptotic negligibility (UAN) condition Feller’s theorem Lindeberg-Feller theorem Lyapounov condition Characteristic functions Definition Proposition Cramer-Wold device Delta method Conditional Probability and Expectation Conditional expectation Definition Proposition Markov Chain </description>
+    </item>
+    
+  </channel>
+</rss>

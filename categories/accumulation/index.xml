@@ -17,5 +17,30 @@
 （毛泽东在长沙读书时化用：贵有恒，何必三更起五更眠；最无益，只怕一日曝十日寒）</description>
     </item>
     
+    <item>
+      <title>Windows10 常用快捷键总结</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/20/win10-shortcut/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/20/win10-shortcut/</guid>
+      <description>Reference to Windows Central
+ Common Windows10 shortcuts    Keyboard shortcut Action     Ctrl + A Select all content.   Ctrl + C (or Ctrl + Insert) Copy selected items to clipboard.   Ctrl + X Cut selected items to clipboard.   Ctrl + V (or Shift + Insert)	Paste content from clipboard.   Ctrl + Z Undo an action, including undelete files (limited).</description>
+    </item>
+    
+    <item>
+      <title>建站历程</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/19/home-page/</link>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/19/home-page/</guid>
+      <description>这里将记录我的建站历程
+本个人主页采用hugo，关于Hugo的简单教程在这里，模板参考谢益辉使用的hugo-ivy，网站建立的教程参考该youtube视频。谢益辉写的blogdown和hugo-ivy的一些说明在这里。
+日后如需更新文档，输入以下git代码：
+&amp;gt;hugo &amp;gt;cd public &amp;gt;git remote -v &amp;gt;git status &amp;gt;git add . &amp;gt;git commit -m &amp;#34;add something&amp;#34; &amp;gt;git push origin main 输入公式:
+`$ $`
+插入图片：
+将图片放入 static/img 中</description>
+    </item>
+    
   </channel>
 </rss>

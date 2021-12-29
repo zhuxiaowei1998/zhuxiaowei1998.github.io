@@ -110,6 +110,12 @@ the size) and seek a test for which</p>
 <p>The power function of a test <code>$\phi$</code> is defined to be</p>
 <p><code>$$w(\theta)=\mathbb{P}_{\theta}\left\{\text { Reject } H_{0}\right\}=\mathbb{E}_{\theta}\{\phi(Y)\}$$</code></p>
 <p>defined for all <code>$\theta\in\Omega_\theta$</code>.</p>
+<h2 id="the-neyman-pearson-theorem">The Neyman-Pearson Theorem</h2>
+<p>Test of simple null hypothesis <code>$H_0:\theta = \theta_0$</code> against simple alternative hypothesis <code>$H_1:\theta = \theta_1$</code>, where <code>$\theta_0$</code> and <code>$\theta_1$</code> are specified.</p>
+<p>Let the pdf of <code>$Y$</code> be <code>$f(y;\theta)$</code> specialized to <code>$f_0(y)=f(y;\theta_0)$</code> and <code>$f_1(y)=f(y;\theta_1)$</code></p>
+<p>Define the likelihood ratio <code>$\Lambda(y)$</code> by 
+<code>$$\Lambda(y)=\frac{f_1(y)}{f_0(y)}$$</code></p>
+<p>Best test of size <code>$\alpha$</code> in terms of power is of the form: reject <code>$H_0$</code> when <code>$\Lambda(Y) &gt; k\alpha$</code> where <code>$k\alpha$</code> is chosen to guarantee test has size <code>$\alpha$</code>.</p>
 <h2 id="ump-tests">UMP Tests</h2>
 <p>A uniformly most powerful or UMP test of size <code>$\alpha$</code> is a test <code>$\phi_0(\cdot)$</code> for which</p>
 <ul>
@@ -121,8 +127,14 @@ the size) and seek a test for which</p>
 there exists a function <code>$t(y)$</code> such that the likelihood ratio</p>
 <p><code>$$\frac{f(y;\theta_2)}{f(y;\theta_1)}$$</code></p>
 <p>is a non-decreasing function of <code>$t(y)$</code> whenever <code>$\theta_1\leq\theta_2$</code></p>
+<h3 id="main-result">Main result</h3>
+<p>Suppose <code>$Y$</code> has a distribution from a family which is MLR with respect to a statistic <code>$t(Y)$</code>, and that we wish to test <code>$H_0: \theta \leq \theta_0$</code> against <code>$H_1:\theta &gt; \theta_0$</code>. Suppose the distribution function of <code>$t(Y)$</code> is continuous.</p>
+<p>(a) The test</p>
+<p><code>$$\phi_0(y)=\begin{cases}1&amp;\text{if } t(y) &gt; t_0\\0&amp; \text{if } t(y) &lt; t_0\end{cases}$$</code></p>
+<p>is UMP among all tests of size <code>$\leq\mathbb{E}_{\theta_0}\{\phi_0(Y)\}$</code></p>
+<p>(b) Given some <code>$\alpha$</code>, where <code>0&lt;\alpha&lt;1</code>, there exists some <code>$t_0$</code> such that the test in (a) has size exactly <code>$\alpha$</code></p>
 <h2 id="unbiasedness-and-umpu-tests">Unbiasedness and UMPU tests</h2>
-<p>A test <code>$\phi$</code> of <code>$H_0$</code> : <code>\theta\in\Theta_0</code> against <code>$H_1:\theta\in\Theta_1$</code> is unbiased of size <code>$\alpha$</code> if 
+<p>A test <code>$\phi$</code> of <code>$H_0$</code> : <code>$\theta\in\Theta_0$</code> against <code>$H_1:\theta\in\Theta_1$</code> is unbiased of size <code>$\alpha$</code> if 
 <code>$$\sup _{\theta \in \Theta_{0}} \mathbb{E}_{\theta}\{\phi(Y)\}=\alpha$$</code>
 and 
 <code>$$\mathbb{E}_{\theta}\{\phi(Y)\} \geq \alpha \text { for all } \theta \in \Theta_{1}$$</code>
@@ -135,17 +147,23 @@ A test which is uniformly most powerful amongst the class of all unbiased tests 
 a nuisance parameter. Suppose the minimal sufficient statistic <code>$T = (S, C)$</code>, where the conditional distribution of <code>$S$</code> given <code>$C = c$</code>
 depends on <code>$\psi$</code>, but not <code>$\lambda$</code>, for each <code>$c$</code>.</p>
 <p>Test using the conditional distribution of <code>$S$</code> given <code>$C$</code>. This eliminates the nuisance parameter: the test is similar.</p>
-<h2 id="similarity-definition">Similarity: definition</h2>
+<h3 id="similarity-definition">Similarity: definition</h3>
 <p>Suppose <code>$\theta = (\psi,\lambda)$</code> and the parameter space is of the form <code>$\Theta = \Psi \times \Lambda$</code>. Suppose we wish to test the null hypothesis <code>$H_0 : \psi = \psi_0$</code> against the alternative <code>$H_1 : \psi \neq \psi_0$</code>, with <code>$\lambda$</code> treated as a nuisance parameter.</p>
 <p>Suppose <code>$\phi(y)$</code>, <code>$y\in\mathcal{Y}$</code> is a test of size α for which
 <code>$$\mathbb{E}_{\psi_{0}, \lambda}\{\phi(X)\}=\alpha \text { for all } \lambda \in \Lambda$$</code>
 Then <code>$\psi$</code> is called a similar test of size <code>$\alpha$</code>.</p>
-<h2 id="theorem">Theorem</h2>
+<h2 id="optimal-point-estimation">Optimal point estimation</h2>
+<p>Optimal point estimation of (scalar) parameter <code>$\theta$</code>.</p>
+<ul>
+<li>Minimum variance unbiased estimator.</li>
+<li>More generally, unbiased estimator minimizing convex loss function.</li>
+</ul>
+<h3 id="theorem">Theorem</h3>
 <p>To estimate a real-valued parameter <code>$\theta$</code> with an estimator <code>$d(Y)$</code> say.The loss function <code>$L(\theta, d)$</code> is a convex function of <code>$d$</code> for each <code>$\theta$</code>.</p>
 <p>Let <code>$d_1(Y)$</code> be an unbiased estimator for <code>$T$</code> and suppose <code>$T$</code> is a sufficient statistic. Then the estimator</p>
 <p><code>$$\chi(T)=\mathbb{E}\left\{d_{1}(Y) \mid T\right\}$$</code></p>
 <p>is also unbiased and has risk not exceeding that of <code>$d_1$</code>.</p>
-<h2 id="a-general-result">A general result</h2>
+<h3 id="a-general-result">A general result</h3>
 <p>Theorem. Let <code>$T$</code> be a complete sufficient statistic for a (vector)
 parameter <code>$\theta$</code>, and let <code>$\phi(T)$</code> be any estimator based only on <code>$T$</code>. Then <code>$\phi(T)$</code> is the UMVUE of its expectation.</p>
 <h2 id="bayes-factors">Bayes factors</h2>

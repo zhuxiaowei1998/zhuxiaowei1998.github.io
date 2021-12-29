@@ -114,7 +114,7 @@ Then
 <h3 id="consistency">Consistency</h3>
 <p>Let <code>$\widehat{\theta}_n$</code> denote an estimator of a parameter <code>$\theta$</code> based on a sample of size <code>$n$</code>. We say that <code>$\hat{\theta}_n$</code> is weakly consistent if <code>$\widehat{\theta}_{n} \stackrel{p}{\longrightarrow} \theta$</code> and strongly consistent if <code>$\widehat{\theta}_{n} \stackrel{a.s}{\longrightarrow} \theta$</code></p>
 <h3 id="asymptotic-distribution-of-the-mle">Asymptotic distribution of the MLE</h3>
-<p><code>$$\sqrt{n i_{1}\left(\theta_{0}\right)}\left(\widehat{\theta}_{n}-\theta_{0}\right) \stackrel{d}{\longrightarrow} N(0,1) .$$</code></p>
+<p><code>$$\sqrt{n i_{1}\left(\theta_{0}\right)}\left(\widehat{\theta}_{n}-\theta_{0}\right) \stackrel{d}{\longrightarrow} N(0,1)$$</code></p>
 <h2 id="likelihood-ratio-tests-and-wilks-theorem">Likelihood ratio tests and Wilks’ Theorem</h2>
 <p>Letting <code>$L(\theta)$</code> denote the likelihood function and <code>$\Theta_0$</code> the subset of <code>$\Omega_\theta$</code> satisfying the constraints,</p>
 <p><code>$$H_{0}: \theta_{1}=\theta_{1}^{0}, \ldots, \theta_{m}=\theta_{m}^{0}$$</code></p>
@@ -123,9 +123,16 @@ Then
 and define the likelihood ratio statistic
 <code>$$T_n = 2\log\left(\frac{L_1}{L_0}\right)$$</code>
 where the notation indicates dependence on the the sample size <code>$n$</code>.</p>
-<p>Suppose the model satisfies the same regularity conditions as are needed for the asymptotic properties of the MLE— in particular, we require that <code>L(\theta)</code> be at least twice continuously differentiable in all its components in some neighborhood of the true value of <code>$\theta$</code>, and that the Fisher information matrix be well-defined and invertible.</p>
+<p>Suppose the model satisfies the same regularity conditions as are needed for the asymptotic properties of the MLE— in particular, we require that <code>$L(\theta)$</code> be at least twice continuously differentiable in all its components in some neighborhood of the true value of <code>$\theta$</code>, and that the Fisher information matrix be well-defined and invertible.</p>
 <p>Suppose <code>$H_0$</code> is true. Then as <code>$n\rightarrow\infty$</code>,
 <code>$$T_{n} \stackrel{d}{\longrightarrow} \chi_{m}^{2}$$</code></p>
+<h2 id="walds-test">Wald’s Test</h2>
+<p><code>$$\sqrt{n \widehat{i_{1}}\left(\theta_{0}\right)}\left(\widehat{\theta}_{n}-\theta_{0}\right) \stackrel{d}{\longrightarrow} N(0,1)$$</code></p>
+<h2 id="score-test">Score Test</h2>
+<p><code>$$\frac{U(\theta_0)}{\sqrt{n\widehat{i_1}}}\stackrel{d}{\longrightarrow} N(0,1)$$</code></p>
+<h2 id="signed-root-statistic">Signed root statistic</h2>
+<p><code>$$r(\theta_0)=\text{sgn}(\widehat{\theta}-\theta_0)\sqrt{T_n}\stackrel{d}{\longrightarrow} N(0,1)$$</code></p>
+<p><code>$$T_n = 2\log\left(\frac{L_1}{L_0}\right)$$</code></p>
 
 
 

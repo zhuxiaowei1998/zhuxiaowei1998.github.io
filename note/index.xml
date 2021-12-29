@@ -6,7 +6,86 @@
     <description>Recent content in Notes on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Probability</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/29/probability/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/29/probability/</guid>
+      <description>The Elements of Probability Theory Algebra and σ-algebra Borel σ-algebra Measure Probability measure Properties of the probability measure Monotone class theorem Caratheodory extension theorem Random Variables and Vectors Random variables Definition Proposition Random vectors Distribution function of a random variable Definition Proposition Distribution function of a random vector Definition Proposition Independence of random variables Independence of random vectors Integration and Expectation Lebesgue-Stieltjes integration Definition Proposition Fatou’s lemma Monotone convergence theorem Dominated convergence theorem Bounded convergence theorem Important inequalities Markov’s inequality Chebychev’s inequality Jensen’s inequality Hölder’s inequality Schwarz’s inequality Minkowski’s inequality Iterated integrals Tonelli’s theorem Fubini’s theorem) Densities Modes of Convergence Almost sure convergence Convergence in probability Convergence in $L^p$ Convergence in distribution Connection between modes of convergence Slutsky’s theorem Convergence of random vectors Multivariate Mann-Wald mapping theorem) Laws of Large Numbers Weak law of large numbers Strong law of large numbers Glivenko-Cantelli theorem) Central Limit Theorems Standard central limit theorem Lindeberg condition Lindeberg’s CLT Uniform asymptotic negligibility (UAN) condition Feller’s theorem Lindeberg-Feller theorem Lyapounov condition Characteristic functions Definition Proposition Cramer-Wold device Delta method Conditional Probability and Expectation Conditional expectation Definition Proposition Markov Chain </description>
+    </item>
+    
+    <item>
+      <title>《论语摘录》整理</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/29/analects/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/29/analects/</guid>
+      <description>做人 学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？
+弟子入则孝，出则悌，谨而信，泛爱众，而亲仁。行有余力，则以学文。
+事父母，能竭其力；事君，能致其身；与朋友交，言而有信。
+吾十有五而志于学，三十而立，四十而不惑，五十而知天命，六十而耳顺，七十而从心所欲，不逾矩。
+饭疏食饮水，曲肱而枕之，乐亦在其中矣。不义而富且贵，于我如浮云。
+发愤忘食，乐以忘忧，不知老之将至云尔。
+士不可以不弘毅，任重而道远。仁以为己任，不亦重乎？死而后已，不亦远乎？
+如有周公之才之美，使骄且吝，其馀不足观也已。
+三年学，不至于谷，不易得也。
+笃信好学，守死善道。危邦不入，乱邦不居。天下有道则见，无道则隐。邦有道，贫且贱焉，耻也。邦无道，富且贵焉，耻也。
+不在其位，不谋其政。
+子绝四：毋意，毋必，毋固，毋我。
+三军可夺帅也，匹夫不可夺志也。
+知者不惑，仁者不忧，勇者不惧。
+过犹不及。
+在邦无怨，在家无怨。
+其身正，不令而行；其身不正，虽令不从。
+苟有用我者，期月而已可也，三年有成。
+无欲速，无见小利。欲速，则不达；见小利，则大事不成。
+行己有耻，使于四方，不辱君命，可谓士矣。
+德不孤，必有邻。
+目标 老者安之，朋友信之，少者怀之。
+内省之功 吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？传不习乎？
+见贤思齐焉，见不贤而内自省也。
+季文子三思而后行。子闻之，曰：“再，斯可矣。”
+君子之道 君子务本，本立而道生。
+君子不重，则不威；学则不固。主忠信，无友不如已者。
+君子食无求饱，居无求安，敏于事而慎于言，就有道而正焉，可谓好学也已。
+君子不器。
+富与贵，是人之所欲也。不以其道得之，不处也。贫与贱，是人之所恶也。不以其道得之，不去也。君子去仁，恶乎成名？君子无终食之间违仁，造次必于是，颠沛必于是。
+君子之于天下也，无适也，无莫也，义之与比。
+君子喻于义，小人喻于利。
+质胜文则野，文胜质则史。文质彬彬，然后君子。
+贤哉回也，一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。贤哉回也。
+力不足者，中道而废。今女画。
+已欲立而立人，已欲达而达人。
+德之不修，学之不讲，闻义不能徙，不善不能改，是吾忧也。
+志于道，据于德，依于仁，游于艺。
+用之则行，舍之则藏。
+富而可求也，虽执鞭之士，吾亦为之。如不可求，从吾所好。
+躬行君子，则吾未之有得。
+可以托六尺之孤，可以寄百里之命，临大节而不可夺也。君子人与？君子人也
+君子居之，何陋之有？
+君子不忧不惧。内省不疚，夫何忧何惧。
+君子成人之美，不成人之恶。小人反是。
+君子坦荡荡，小人长戚戚。
+君子和而不同，小人同而不和。
+君子泰而不骄，小人骄而不泰。
+不如乡人之善者好之，其不善者恶之。
+过错 吾未见能见其过而内自讼者也。
+过则勿惮改。
+不迁怒，不贰过。
+君子之过也，如日月之食焉；过也，人皆见之；更也，人皆仰之。
+仁 仁者先难而后获，可谓仁矣。
+知者乐水，仁者乐山。知者动，仁者静。知者乐，仁者寿。
+求仁而得仁，又何怨？
+我欲仁，斯仁至矣。
+刚、毅、木、讷近仁。
+孝 今之孝者，是谓能养。至于犬马，皆能有养。不敬，何以别乎？
+父母之年，不可不知也。一则以喜，一则以惧。
+父为子隐，子为父隐。直在其中矣。
+忠 君使臣以礼，臣事君以忠。</description>
+    </item>
+    
     <item>
       <title>日记</title>
       <link>https://zhuxiaowei1998.github.io/note/2021/12/28/diary/</link>
@@ -18,6 +97,20 @@ Leetcode 刷了三道编程题，汉诺塔问题，最长公共子串，子数�
 随记 做leetcode编程题，谋定而后动！
 光看一本书还不够，得多去看看不同的书。
 例子很重要！</description>
+    </item>
+    
+    <item>
+      <title>日记</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/28/diary/</link>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/28/diary/</guid>
+      <description>专业课  FSI slides 还剩Inverse Gaussian PfS 过了一遍知识点  读书  《财富自由之路》关于资本 《论语》初步整理  随记   解决Anaconda pip install 出错的问题：链接
+  中文分词python库：
+   jieba THULAC time.clock的问题 fool LTP [Hanlp]https://github.com/hankcs/pyhanlp   下学期开学，主要任务是学好专业课。  每天回顾今日所学，每周整理一周每门课的内容
+看完每一个video，弄清楚每一个知识点，搞明白每一道题目，做好每一份记录
+学有余力，
+ 刷leetcode 看李航《统计学习方法》、《百面机器学习》。 学李宏毅机器学习和斯坦福的nlp网课  </description>
     </item>
     
     <item>

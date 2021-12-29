@@ -118,6 +118,14 @@ A decision rule <code>$d$</code> is minimax if it minimizes the maximum risk:
 <h2 id="role-of-minimal-sufficiency-and-completeness">Role of minimal sufficiency and completeness</h2>
 <h2 id="importance-of-likelihood-principle">Importance of Likelihood Principle</h2>
 <h2 id="arguments-in-favour-of-the-conditionality-principle">Arguments in favour of the Conditionality Principle</h2>
+<ul>
+<li>
+<p>When the conditioning statistic is ancillary, failure to condition may lead to paradoxical situations in which two analysts may form completely different viewpoints of the same data, even though conditioning may run counter to the strict viewpoint of maximizing power.</p>
+</li>
+<li>
+<p>Under certain circumstances a conditional test may satisfy the conditions needed to be UMP similar or UMPU. This argument is explicitly based on power considerations.</p>
+</li>
+</ul>
 <h2 id="arguments-against-conditionality-principle">Arguments against Conditionality Principle</h2>
 <h2 id="when-is-the-conditionality-principle-relevant">When is the Conditionality Principle relevant?</h2>
 <h2 id="difficulties-in-application-of-the-conditionality-principle">Difficulties in application of the Conditionality Principle.</h2>
@@ -127,7 +135,16 @@ A decision rule <code>$d$</code> is minimax if it minimizes the maximum risk:
 <h2 id="main-devices-used-for-dealing-with-nuisance-parameter">Main devices used for dealing with nuisance parameter</h2>
 <h2 id="why-are-likelihood-based-methods-of-inference-important">Why are likelihood-based methods of inference important?</h2>
 <h2 id="wald-score-and-likelihood-ratio-test">Wald, score and likelihood ratio test</h2>
+<h3 id="walds-test">Wald’s Test</h3>
+<p><code>$$\sqrt{n \widehat{i_{1}}\left(\theta_{0}\right)}\left(\widehat{\theta}_{n}-\theta_{0}\right) \stackrel{d}{\longrightarrow} N(0,1)$$</code></p>
+<h3 id="score-test">Score Test</h3>
+<p><code>$$\frac{U(\theta_0)}{\sqrt{n\widehat{i_1}}}\stackrel{d}{\longrightarrow} N(0,1)$$</code></p>
+<h3 id="signed-root-statistic">Signed root statistic</h3>
+<p><code>$$r(\theta_0)=\text{sgn}(\widehat{\theta}-\theta_0)\sqrt{T_n}\stackrel{d}{\longrightarrow} N(0,1)$$</code></p>
+<p><code>$$T_n = 2\log\left(\frac{L_1}{L_0}\right)$$</code></p>
 <h2 id="key-properties-of-mle">Key properties of MLE?</h2>
+<p>consistency, asymptotic normality and
+asymptotic efficiency.</p>
 
 
 
