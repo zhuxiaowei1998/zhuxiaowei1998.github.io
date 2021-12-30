@@ -6,7 +6,19 @@
     <description>Recent content in Home on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日记</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/30/diary/</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/30/diary/</guid>
+      <description>专业课  FSI 最后的video看完，过了一遍知识点 过了FSI两年的往年卷  Leetcode  最长公共子序列 丢棋子问题  随记 今天在Leetcode上花了过多的时间（两道题做了近三小时），还没有完全做出来，看答案也没有完全消化吸收。动态规划的题，前期还是不要死磕，毕竟有的题目确实灵活，比较tricky，也不是说花时间就能看出来的，不如老老实实把答案看懂，要点吸收。
+刷Leetcode，好的策略是：先自己想一会儿（10分钟），如果有思路，觉得自己应该能做出来，那么就继续想一会儿（10分钟）；如果明显没有思路的，那么就不要再想下去了，直接看题解，消化吸收吧，毕竟消化吸收也是要花不少时间的（20分钟左右）。
+比较理想的情况是一道题目花半小时左右。
+一个启示是：要清楚自己的能力边界，量力而行，做努努力能获得的事情。不要钻牛角尖。</description>
+    </item>
+    
     <item>
       <title>Probability</title>
       <link>https://zhuxiaowei1998.github.io/note/2021/12/29/probability/</link>
@@ -88,6 +100,20 @@
     
     <item>
       <title>日记</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/29/diary/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/29/diary/</guid>
+      <description>专业课  FSI slides 还剩Inverse Gaussian PfS 过了一遍知识点  读书  《财富自由之路》关于资本 《论语》初步整理  随记   解决Anaconda pip install 出错的问题：链接
+  中文分词python库：
+   jieba THULAC time.clock的问题 fool LTP Hanlp   下学期开学，主要任务是学好专业课。  每天回顾今日所学，每周整理一周每门课的内容
+看完每一个video，弄清楚每一个知识点，搞明白每一道题目，做好每一份记录
+学有余力，
+ 刷leetcode 看李航《统计学习方法》、《百面机器学习》。 学李宏毅机器学习和斯坦福的nlp网课  </description>
+    </item>
+    
+    <item>
+      <title>日记</title>
       <link>https://zhuxiaowei1998.github.io/note/2021/12/28/diary/</link>
       <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
       
@@ -97,20 +123,6 @@ Leetcode 刷了三道编程题，汉诺塔问题，最长公共子串，子数�
 随记 做leetcode编程题，谋定而后动！
 光看一本书还不够，得多去看看不同的书。
 例子很重要！</description>
-    </item>
-    
-    <item>
-      <title>日记</title>
-      <link>https://zhuxiaowei1998.github.io/note/2021/12/28/diary/</link>
-      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhuxiaowei1998.github.io/note/2021/12/28/diary/</guid>
-      <description>专业课  FSI slides 还剩Inverse Gaussian PfS 过了一遍知识点  读书  《财富自由之路》关于资本 《论语》初步整理  随记   解决Anaconda pip install 出错的问题：链接
-  中文分词python库：
-   jieba THULAC time.clock的问题 fool LTP [Hanlp]https://github.com/hankcs/pyhanlp   下学期开学，主要任务是学好专业课。  每天回顾今日所学，每周整理一周每门课的内容
-看完每一个video，弄清楚每一个知识点，搞明白每一道题目，做好每一份记录
-学有余力，
- 刷leetcode 看李航《统计学习方法》、《百面机器学习》。 学李宏毅机器学习和斯坦福的nlp网课  </description>
     </item>
     
     <item>
@@ -499,8 +511,7 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
       <guid>https://zhuxiaowei1998.github.io/posts/to-do-list/</guid>
       <description>秋招前的计划  学好专业课 做好Project 拿到上海互联网大厂or外企or金融科技岗 offer 《百面机器学习》过完 《统计学习方法》过完 牛客网上Leetcode高频面试题刷完 牛客网上SQL题目刷完 认真参加一次Kaggle竞赛 春学期跟着上李宏毅的机器学习网课 Stanford NLP网课 春招投递简历试水 至少读完三本书、做好摘录，总结整理  Christmas Plan  制作个人博客 整理完FSI每一章节的内容，写进Blog 过完FSI所有的problem sets 做完所有FSI往年的卷子，校对答案，过程记录在notability上 过完PS所有的notes 做完所有PS往年的卷子，校对答案，过程记录在notability上 过完PS所有的exercise 牛客网上leetcode刷到100题 百面机器学习过完 《统计学习》公式推导 《数学之美》看完，做摘录  Christmas week 1
  整理FSI每一章的笔记 过完FSI每一个problem set（还差一个more detailed problems） PS所有exercise过完，难点做标记（过了两年的期末卷） 数学之美看完7章（看了金字塔原理和财务自由之路） 隐马尔科夫模型 理发  Christmas week 2
- FSI 最后的video FSI 总结 过完FSI所有往年卷 过完PS所有往年卷 过完PS一半的further exercise 动态规划专项刷完 统计学习方法看5章 金字塔原理看7章 财务自由之路看7章 新年祝福  book list
- 《金字塔原理》 《财务自由之路》 ing  </description>
+ FSI 最后的video Inverse Gaussian Example FSI 总结 过完FSI所有往年卷 过完PS所有往年卷 过完PS一半的further exercise 动态规划专项刷完 统计学习方法看5章 金字塔原理看7章 财务自由之路看7章 新年祝福  book list</description>
     </item>
     
     <item>

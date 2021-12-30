@@ -6,7 +6,33 @@
     <description>Recent content in diary on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日记</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/30/diary/</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/30/diary/</guid>
+      <description>专业课  FSI 最后的video看完，过了一遍知识点 过了FSI两年的往年卷  Leetcode  最长公共子序列 丢棋子问题  随记 今天在Leetcode上花了过多的时间（两道题做了近三小时），还没有完全做出来，看答案也没有完全消化吸收。动态规划的题，前期还是不要死磕，毕竟有的题目确实灵活，比较tricky，也不是说花时间就能看出来的，不如老老实实把答案看懂，要点吸收。
+刷Leetcode，好的策略是：先自己想一会儿（10分钟），如果有思路，觉得自己应该能做出来，那么就继续想一会儿（10分钟）；如果明显没有思路的，那么就不要再想下去了，直接看题解，消化吸收吧，毕竟消化吸收也是要花不少时间的（20分钟左右）。
+比较理想的情况是一道题目花半小时左右。
+一个启示是：要清楚自己的能力边界，量力而行，做努努力能获得的事情。不要钻牛角尖。</description>
+    </item>
+    
+    <item>
+      <title>日记</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/29/diary/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/29/diary/</guid>
+      <description>专业课  FSI slides 还剩Inverse Gaussian PfS 过了一遍知识点  读书  《财富自由之路》关于资本 《论语》初步整理  随记   解决Anaconda pip install 出错的问题：链接
+  中文分词python库：
+   jieba THULAC time.clock的问题 fool LTP Hanlp   下学期开学，主要任务是学好专业课。  每天回顾今日所学，每周整理一周每门课的内容
+看完每一个video，弄清楚每一个知识点，搞明白每一道题目，做好每一份记录
+学有余力，
+ 刷leetcode 看李航《统计学习方法》、《百面机器学习》。 学李宏毅机器学习和斯坦福的nlp网课  </description>
+    </item>
+    
     <item>
       <title>日记</title>
       <link>https://zhuxiaowei1998.github.io/note/2021/12/28/diary/</link>
@@ -18,20 +44,6 @@ Leetcode 刷了三道编程题，汉诺塔问题，最长公共子串，子数�
 随记 做leetcode编程题，谋定而后动！
 光看一本书还不够，得多去看看不同的书。
 例子很重要！</description>
-    </item>
-    
-    <item>
-      <title>日记</title>
-      <link>https://zhuxiaowei1998.github.io/note/2021/12/28/diary/</link>
-      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhuxiaowei1998.github.io/note/2021/12/28/diary/</guid>
-      <description>专业课  FSI slides 还剩Inverse Gaussian PfS 过了一遍知识点  读书  《财富自由之路》关于资本 《论语》初步整理  随记   解决Anaconda pip install 出错的问题：链接
-  中文分词python库：
-   jieba THULAC time.clock的问题 fool LTP [Hanlp]https://github.com/hankcs/pyhanlp   下学期开学，主要任务是学好专业课。  每天回顾今日所学，每周整理一周每门课的内容
-看完每一个video，弄清楚每一个知识点，搞明白每一道题目，做好每一份记录
-学有余力，
- 刷leetcode 看李航《统计学习方法》、《百面机器学习》。 学李宏毅机器学习和斯坦福的nlp网课  </description>
     </item>
     
     <item>

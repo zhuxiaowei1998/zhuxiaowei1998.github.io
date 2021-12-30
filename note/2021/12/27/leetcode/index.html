@@ -140,7 +140,20 @@
 <li>转移方程</li>
 </ol>
 <p><code>$$dp[i][j]=\begin{cases}0, &amp; \text{if s[i]}\neq{s[j]} \\ dp[i-1][j-1] + 1&amp; \text{else}\end{cases}$$</code></p>
-<h2 id="tips">Tips</h2>
+<h2 id="nc92-最长公共子序列一">NC92 最长公共子序列(一)</h2>
+<p>描述：给定两个字符串 s1 和 s2，长度为m和n 。求两个字符串最长公共子序列的长度。</p>
+<ol>
+<li><code>$dp[i][j]$</code>:字符串s1中第i个字符和s2中第j个字符为最后一个元素所构成的最长公共子序列的长度</li>
+<li>转移方程</li>
+</ol>
+<p><code>$$dp[i][j]=\begin{cases}\max(dp[i-1][j],dp[i][j-1]), &amp; \text{if s[i]}\neq{s[j]} \\ dp[i-1][j-1] + 1&amp; \text{else}\end{cases}$$</code></p>
+<h2 id="nc92-最长公共子序列二">NC92 最长公共子序列(二)</h2>
+<p>待研究</p>
+<h2 id="nc87-丢棋子问题">NC87 丢棋子问题</h2>
+<p>一座大楼有 n+1 层，地面算作第0层，最高的一层为第 n 层。已知棋子从第0层掉落肯定不会摔碎，从第 i 层掉落可能会摔碎，也可能不会摔碎。</p>
+<p>给定整数 n 作为楼层数，再给定整数 k 作为棋子数，返回如果想找到棋子不会摔碎的最高层数，即使在最差的情况下扔的最小次数。一次只能扔一个棋子。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">dp[i][j] <span style="color:#f92672">=</span> dp[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][j] <span style="color:#f92672">+</span> dp[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][j<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</code></pre></div><h2 id="tips">Tips</h2>
 <p>边界的处理</p>
 
 
