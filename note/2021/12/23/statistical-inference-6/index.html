@@ -110,12 +110,24 @@ the size) and seek a test for which</p>
 <p>The power function of a test <code>$\phi$</code> is defined to be</p>
 <p><code>$$w(\theta)=\mathbb{P}_{\theta}\left\{\text { Reject } H_{0}\right\}=\mathbb{E}_{\theta}\{\phi(Y)\}$$</code></p>
 <p>defined for all <code>$\theta\in\Omega_\theta$</code>.</p>
+<h2 id="classes-of-problem">Classes of problem</h2>
+<ul>
+<li>
+<p>(i) Simple <code>$H_0$</code> vs. simple <code>$H_1$</code>. Complete theory, given by the Neyman-Pearson Theorem.</p>
+</li>
+<li>
+<p>(ii) Simple <code>$H_0$</code> vs. composite <code>$H_1$</code>. In some cases, but not all,there is a uniformly most powerful test, with <code>$w(\theta)$</code> largest overall tests, uniformly for all <code>$\theta \in \theta_1$</code>. When the family of distributions has the property of Monotone Likelihood ratio.</p>
+</li>
+<li>
+<p>(iii) Composite <code>$H_0$</code> vs. composite <code>$H_1$</code>. How do we cope with nuisance parameters? With certain distributions, we can use conditional tests.</p>
+</li>
+</ul>
 <h2 id="the-neyman-pearson-theorem">The Neyman-Pearson Theorem</h2>
 <p>Test of simple null hypothesis <code>$H_0:\theta = \theta_0$</code> against simple alternative hypothesis <code>$H_1:\theta = \theta_1$</code>, where <code>$\theta_0$</code> and <code>$\theta_1$</code> are specified.</p>
 <p>Let the pdf of <code>$Y$</code> be <code>$f(y;\theta)$</code> specialized to <code>$f_0(y)=f(y;\theta_0)$</code> and <code>$f_1(y)=f(y;\theta_1)$</code></p>
 <p>Define the likelihood ratio <code>$\Lambda(y)$</code> by 
 <code>$$\Lambda(y)=\frac{f_1(y)}{f_0(y)}$$</code></p>
-<p>Best test of size <code>$\alpha$</code> in terms of power is of the form: reject <code>$H_0$</code> when <code>$\Lambda(Y) &gt; k\alpha$</code> where <code>$k\alpha$</code> is chosen to guarantee test has size <code>$\alpha$</code>.</p>
+<p>Best test of size <code>$\alpha$</code> in terms of power is of the form: reject <code>$H_0$</code> when <code>$\Lambda(Y) &gt; k_\alpha$</code> where <code>$k_\alpha$</code> is chosen to guarantee test has size <code>$\alpha$</code>.</p>
 <h2 id="ump-tests">UMP Tests</h2>
 <p>A uniformly most powerful or UMP test of size <code>$\alpha$</code> is a test <code>$\phi_0(\cdot)$</code> for which</p>
 <ul>
@@ -132,7 +144,7 @@ there exists a function <code>$t(y)$</code> such that the likelihood ratio</p>
 <p>(a) The test</p>
 <p><code>$$\phi_0(y)=\begin{cases}1&amp;\text{if } t(y) &gt; t_0\\0&amp; \text{if } t(y) &lt; t_0\end{cases}$$</code></p>
 <p>is UMP among all tests of size <code>$\leq\mathbb{E}_{\theta_0}\{\phi_0(Y)\}$</code></p>
-<p>(b) Given some <code>$\alpha$</code>, where <code>0&lt;\alpha&lt;1</code>, there exists some <code>$t_0$</code> such that the test in (a) has size exactly <code>$\alpha$</code></p>
+<p>(b) Given some <code>$\alpha$</code>, where <code>$0&lt;\alpha&lt;1$</code>, there exists some <code>$t_0$</code> such that the test in (a) has size exactly <code>$\alpha$</code></p>
 <h2 id="unbiasedness-and-umpu-tests">Unbiasedness and UMPU tests</h2>
 <p>A test <code>$\phi$</code> of <code>$H_0$</code> : <code>$\theta\in\Theta_0$</code> against <code>$H_1:\theta\in\Theta_1$</code> is unbiased of size <code>$\alpha$</code> if 
 <code>$$\sup _{\theta \in \Theta_{0}} \mathbb{E}_{\theta}\{\phi(Y)\}=\alpha$$</code>
@@ -141,7 +153,7 @@ and
 A test which is uniformly most powerful amongst the class of all unbiased tests is uniformly most powerful unbiased, abbreviated UMPU.</p>
 <h2 id="conditionality-principle">Conditionality Principle</h2>
 <p>The minimal sufficient statistic for <code>$\theta$</code> is <code>$(Y, \delta)$</code>, and <code>$\delta$</code> has a distribution not depending on <code>$\theta$</code>.</p>
-<p>The Conditionality Principle argues that inference about <code>\theta</code> should be based on the conditional distribution of <code>$Y$</code> given <code>$\delta$</code>.</p>
+<p>The Conditionality Principle argues that inference about <code>$\theta$</code> should be based on the conditional distribution of <code>$Y$</code> given <code>$\delta$</code>.</p>
 <h2 id="similar-tests">Similar tests</h2>
 <p>Suppose we have <code>$\theta = (\psi,\lambda)$</code>, with <code>$\psi$</code> the interest parameter and <code>$\lambda$</code>
 a nuisance parameter. Suppose the minimal sufficient statistic <code>$T = (S, C)$</code>, where the conditional distribution of <code>$S$</code> given <code>$C = c$</code>
@@ -180,8 +192,8 @@ parameter <code>$\theta$</code>, and let <code>$\phi(T)$</code> be any estimator
 <li>Via pivotal quantity.</li>
 <li>Inversion of hypothesis test.</li>
 </ul>
-<h2 id="pivotal-quantities">Pivotal quantities</h2>
-<p>A random function <code>$T(Y, \theta)$</code> is said to be pivotal, or a pivotal quantity, if it is a function of both <code>$Y$</code> and <code>$\theta$</code> whose distribution does not depend on <code>\theta</code>.</p>
+<h3 id="pivotal-quantities">Pivotal quantities</h3>
+<p>A random function <code>$T(Y, \theta)$</code> is said to be pivotal, or a pivotal quantity, if it is a function of both <code>$Y$</code> and <code>$\theta$</code> whose distribution does not depend on <code>$\theta$</code>.</p>
 <p>Given <code>$\alpha\in(0, 1)$</code> and a pivotal quantity <code>$T(Y, \theta)$</code>, we can find constants <code>$c_1$</code> and <code>$c_2$</code> such that</p>
 <p><code>$$\operatorname{Pr}_{\theta}\left\{c_{1} \leq T(Y, \theta) \leq c_{2}\right\}=1-\alpha \text { for all } \theta$$</code></p>
 <p>Provided <code>$T(Y, \theta)$</code> is of a reasonably manageable functional form, we can rewrite this relationship in the form

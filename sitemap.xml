@@ -3,15 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://zhuxiaowei1998.github.io/categories/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zhuxiaowei1998.github.io/categories/diary/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
+    <loc>https://zhuxiaowei1998.github.io/tags/cooking/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/categories/life/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/note/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2022/01/04/okra/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2022/01/04/okra/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/tags/statistical-inference/</loc>
+    <lastmod>2021-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2021/12/31/statistical-inference-9/</loc>
+    <lastmod>2021-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/categories/statistics/</loc>
+    <lastmod>2021-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/categories/diary/</loc>
     <lastmod>2021-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/note/2021/12/30/diary/</loc>
@@ -27,12 +51,6 @@
     <lastmod>2021-12-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/tags/probability/</loc>
-    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhuxiaowei1998.github.io/categories/statistics/</loc>
-    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhuxiaowei1998.github.io/tags/</loc>
     <lastmod>2021-12-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/note/2021/12/29/analects/</loc>
@@ -54,12 +72,6 @@
     <lastmod>2021-12-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/categories/algorithm/</loc>
-    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhuxiaowei1998.github.io/tags/statistical-inference/</loc>
-    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhuxiaowei1998.github.io/note/2021/12/27/statistical-inference-8/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/note/2021/12/27/diary/</loc>
@@ -137,12 +149,6 @@
     <loc>https://zhuxiaowei1998.github.io/note/2021/12/22/diary/</loc>
     <lastmod>2021-12-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zhuxiaowei1998.github.io/tags/cooking/</loc>
-    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhuxiaowei1998.github.io/categories/life/</loc>
-    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zhuxiaowei1998.github.io/note/2021/12/21/statistical-inference-3/</loc>
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -211,5 +217,11 @@
   </url><url>
     <loc>https://zhuxiaowei1998.github.io/note/2021/12/19/tea-eggs/</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/categories/thoughts/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhuxiaowei1998.github.io/note/2021/01/02/learn/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url>
 </urlset>

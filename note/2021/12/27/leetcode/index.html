@@ -153,7 +153,10 @@
 <p>一座大楼有 n+1 层，地面算作第0层，最高的一层为第 n 层。已知棋子从第0层掉落肯定不会摔碎，从第 i 层掉落可能会摔碎，也可能不会摔碎。</p>
 <p>给定整数 n 作为楼层数，再给定整数 k 作为棋子数，返回如果想找到棋子不会摔碎的最高层数，即使在最差的情况下扔的最小次数。一次只能扔一个棋子。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">dp[i][j] <span style="color:#f92672">=</span> dp[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][j] <span style="color:#f92672">+</span> dp[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][j<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
-</code></pre></div><h2 id="tips">Tips</h2>
+</code></pre></div><h2 id="01背包问题">01背包问题</h2>
+<p>描述：已知一个背包最多能容纳体积之和为v的物品。现有 n 个物品，第 i 个物品的体积为 vi , 重量为 wi。求当前背包最多能装多大重量的物品?</p>
+<p><code>$dp[i][j]$</code>表示在第i件物品时，还有j的容量时，能装入的最大质量。</p>
+<h2 id="tips">Tips</h2>
 <p>边界的处理</p>
 
 

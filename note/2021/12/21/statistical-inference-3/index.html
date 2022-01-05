@@ -98,6 +98,8 @@
 <p>To minimize the Bayes risk <code>$r(\pi,d))$</code> is equivalent to minimize
 <code>$$\int_{\Omega_{\theta}} L(\theta, d(y)) \pi(\theta \mid y) d \theta$$</code></p>
 <h2 id="james-stein-estimator">James-Stein estimator</h2>
+<p>Let <code>$Y$</code> have a <code>$p$</code>-dimensional (<code>$p \geq 3$</code>) normal distribution with mean vector µ and known covariance matrix equal to the identity <code>$I$</code>, so that <code>$Y_i\sim N(\mu_i,1)$</code>, independently, <code>$i=1,\cdots,p$</code>.</p>
+<p>The obvious estimator <code>$Y$</code> is inadmissible by the James-Stein estimator!</p>
 <p><code>$$d^{a}(Y)=\left(1-\frac{a}{\|Y\|^{2}}\right) Y$$</code></p>
 <h3 id="steins-lemma">Stein&rsquo;s lemma</h3>
 <p><code>$$E\left\{\left(Y_{i}-\mu_{i}\right) h(Y)\right\}=E\left\{\frac{\partial h(Y)}{\partial Y_{i}}\right\}$$</code></p>

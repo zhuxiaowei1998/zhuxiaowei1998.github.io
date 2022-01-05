@@ -6,16 +6,14 @@
     <description>Recent content in statistical inference on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/tags/statistical-inference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/tags/statistical-inference/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Statistical inference 8</title>
-      <link>https://zhuxiaowei1998.github.io/note/2021/12/27/statistical-inference-8/</link>
-      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <title>Statistical inference 9</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/31/statistical-inference-9/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://zhuxiaowei1998.github.io/note/2021/12/27/statistical-inference-8/</guid>
-      <description>Bayes Principles Risk Function $$R(\theta, d)=\mathbb{E}_{\theta} L(\theta, d(Y))=\int_{\mathcal{Y}} L(\theta, d(y)) f(y ; \theta) d y$$
-Bayes risk In the continuous case, the Bayes risk of a decision rule $d$ is defined to be $$r(\pi, d)=\int_{\theta \in \Omega_{\theta}} R(\theta, d) \pi(\theta) d \theta$$ In the discrete case, integral is replaced by a summation.
-Bayes rule A decision rule $d$ is said to be the Bayes rule(with respect to a given prior $\pi(\cdot)$) if it minimized the Bayes risk: if $$r(\pi, d)=\inf _{d^{\prime}} r\left(\pi, d^{\prime}\right)=m_{\pi} \text { say.</description>
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/31/statistical-inference-9/</guid>
+      <description>Inverse Gaussian Distribution Definition Properties Likelihood, MLE Full exponential family MVUE $IG(\mu, \psi)$, test on $\psi$ $IG(\mu, \psi)$, test on $\mu$ </description>
     </item>
     
     <item>
@@ -83,7 +81,7 @@ $$\pi(\theta \mid y)=\frac{\pi(\theta) f(y ; \theta)}{\int_{\Omega_{\theta}} \pi
 $$\pi(\theta|y)\propto\pi(\theta)f(y;\theta)$$
 $$\text{posterior}\propto\text{prior}\times\text{likelihood}$$
 The general form of Bayes rule To minimize the Bayes risk $r(\pi,d))$ is equivalent to minimize $$\int_{\Omega_{\theta}} L(\theta, d(y)) \pi(\theta \mid y) d \theta$$
-James-Stein estimator $$d^{a}(Y)=\left(1-\frac{a}{\|Y\|^{2}}\right) Y$$</description>
+James-Stein estimator Let $Y$ have a $p$-dimensional ($p \geq 3$) normal distribution with mean vector µ and known covariance matrix equal to the identity $I$, so that $Y_i\sim N(\mu_i,1)$, independently, $i=1,\cdots,p$.</description>
     </item>
     
     <item>

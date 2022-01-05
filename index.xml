@@ -6,7 +6,41 @@
     <description>Recent content in Home on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>白灼秋葵</title>
+      <link>https://zhuxiaowei1998.github.io/note/2022/01/04/okra/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2022/01/04/okra/</guid>
+      <description>refer to 下厨房
+ 用料：秋葵、蒜、生抽、蚝油、盐、糖
+做法：
+ 清洗秋葵，去头 放盐焯水；切蒜末；调料碗里放生抽、蚝油、糖 盛出秋葵放盘里 另起一锅，热锅热油，放蒜末炒香，倒入调料 浇在秋葵上  Tips:
+秋葵不宜放置时间过长，买完后尽早食用</description>
+    </item>
+    
+    <item>
+      <title>红烧肉</title>
+      <link>https://zhuxiaowei1998.github.io/note/2022/01/04/okra/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2022/01/04/okra/</guid>
+      <description>refer to 下厨房
+ 用料：猪肉、姜、生抽、老抽、料酒、冰糖、八角
+做法：
+ 洗猪肉，厨房用纸吸干表面 热锅，少油，放五花肉，小火慢煎；筷子翻面 放冰糖，姜，八角，料酒，生抽，老抽 加开水漫过表面，大火烧开，小火慢炖 大火收汁  Tips： 猪肉最好用五花肉</description>
+    </item>
+    
+    <item>
+      <title>Statistical inference 9</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/12/31/statistical-inference-9/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/12/31/statistical-inference-9/</guid>
+      <description>Inverse Gaussian Distribution Definition Properties Likelihood, MLE Full exponential family MVUE $IG(\mu, \psi)$, test on $\psi$ $IG(\mu, \psi)$, test on $\mu$ </description>
+    </item>
+    
     <item>
       <title>日记</title>
       <link>https://zhuxiaowei1998.github.io/note/2021/12/30/diary/</link>
@@ -132,17 +166,6 @@ Leetcode 刷了三道编程题，汉诺塔问题，最长公共子串，子数�
       
       <guid>https://zhuxiaowei1998.github.io/note/2021/12/28/em-gmm/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Statistical inference 8</title>
-      <link>https://zhuxiaowei1998.github.io/note/2021/12/27/statistical-inference-8/</link>
-      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhuxiaowei1998.github.io/note/2021/12/27/statistical-inference-8/</guid>
-      <description>Bayes Principles Risk Function $$R(\theta, d)=\mathbb{E}_{\theta} L(\theta, d(Y))=\int_{\mathcal{Y}} L(\theta, d(y)) f(y ; \theta) d y$$
-Bayes risk In the continuous case, the Bayes risk of a decision rule $d$ is defined to be $$r(\pi, d)=\int_{\theta \in \Omega_{\theta}} R(\theta, d) \pi(\theta) d \theta$$ In the discrete case, integral is replaced by a summation.
-Bayes rule A decision rule $d$ is said to be the Bayes rule(with respect to a given prior $\pi(\cdot)$) if it minimized the Bayes risk: if $$r(\pi, d)=\inf _{d^{\prime}} r\left(\pi, d^{\prime}\right)=m_{\pi} \text { say.</description>
     </item>
     
     <item>
@@ -433,7 +456,7 @@ $$\pi(\theta \mid y)=\frac{\pi(\theta) f(y ; \theta)}{\int_{\Omega_{\theta}} \pi
 $$\pi(\theta|y)\propto\pi(\theta)f(y;\theta)$$
 $$\text{posterior}\propto\text{prior}\times\text{likelihood}$$
 The general form of Bayes rule To minimize the Bayes risk $r(\pi,d))$ is equivalent to minimize $$\int_{\Omega_{\theta}} L(\theta, d(y)) \pi(\theta \mid y) d \theta$$
-James-Stein estimator $$d^{a}(Y)=\left(1-\frac{a}{\|Y\|^{2}}\right) Y$$</description>
+James-Stein estimator Let $Y$ have a $p$-dimensional ($p \geq 3$) normal distribution with mean vector µ and known covariance matrix equal to the identity $I$, so that $Y_i\sim N(\mu_i,1)$, independently, $i=1,\cdots,p$.</description>
     </item>
     
     <item>
@@ -511,7 +534,7 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
       <guid>https://zhuxiaowei1998.github.io/posts/to-do-list/</guid>
       <description>秋招前的计划  学好专业课 做好Project 拿到上海互联网大厂or外企or金融科技岗 offer 《百面机器学习》过完 《统计学习方法》过完 牛客网上Leetcode高频面试题刷完 牛客网上SQL题目刷完 认真参加一次Kaggle竞赛 春学期跟着上李宏毅的机器学习网课 Stanford NLP网课 春招投递简历试水 至少读完三本书、做好摘录，总结整理  Christmas Plan  制作个人博客 整理完FSI每一章节的内容，写进Blog 过完FSI所有的problem sets 做完所有FSI往年的卷子，校对答案，过程记录在notability上 过完PS所有的notes 做完所有PS往年的卷子，校对答案，过程记录在notability上 过完PS所有的exercise 牛客网上leetcode刷到100题 百面机器学习过完 《统计学习》公式推导 《数学之美》看完，做摘录  Christmas week 1
  整理FSI每一章的笔记 过完FSI每一个problem set（还差一个more detailed problems） PS所有exercise过完，难点做标记（过了两年的期末卷） 数学之美看完7章（看了金字塔原理和财务自由之路） 隐马尔科夫模型 理发  Christmas week 2
- FSI 最后的video Inverse Gaussian Example FSI 总结 过完FSI所有往年卷 过完PS所有往年卷 过完PS一半的further exercise 动态规划专项刷完 统计学习方法看5章 金字塔原理看7章 财务自由之路看7章 新年祝福  book list</description>
+ FSI 最后的video Inverse Gaussian Example FSI 总结 (还差最后的概念总结) 过完FSI所有往年卷 过完PS所有往年卷 过完PS一半的further exercise 动态规划专项刷完 （完成1/3） 统计学习方法看5章 （未开始） 金字塔原理看7章 财务自由之路看7章 新年祝福  Christmas week 3</description>
     </item>
     
     <item>
@@ -530,7 +553,8 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://zhuxiaowei1998.github.io/posts/principle/</guid>
-      <description>要做的事情：  运动/健身 规划总结记录 学习知识 磨炼技能 保持社交（爱人/亲人/朋友） 读书、写作 偶尔去旅行  不要做的事情：  不要安逸！ 不要畏难 不要怕麻烦 不要无效重复  </description>
+      <description>不要苟且！做事做完整，做做好
+要做的事情：  运动/健身 规划总结记录 学习知识 磨炼技能 保持社交（爱人/亲人/朋友） 读书、写作 偶尔去旅行  不要做的事情：  不要安逸！ 不要畏难 不要怕麻烦 不要无效重复  </description>
     </item>
     
     <item>
@@ -589,6 +613,15 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
 做法：
  将生鸡蛋煮熟 放入冰水浸泡20分钟，然后轻轻敲碎外壳 另起一锅，加水，放茶叶、八角、桂皮，倒生抽，老抽，放盐，放糖 煮10分钟，有香味后，放敲碎的鸡蛋，中火煮半小时 全部倒入慢炖锅，低档开一晚上  Tips:
  茶叶最好用红茶 鸡蛋敲碎一点，否则不入味  </description>
+    </item>
+    
+    <item>
+      <title>关于学习</title>
+      <link>https://zhuxiaowei1998.github.io/note/2021/01/02/learn/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2021/01/02/learn/</guid>
+      <description>学习：不会到会的过程</description>
     </item>
     
   </channel>

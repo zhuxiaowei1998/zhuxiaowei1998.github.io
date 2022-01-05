@@ -110,6 +110,7 @@ Absolute error loss function:
 <code>$$L(\theta,a) = |\theta-a|$$</code></p>
 <h2 id="admissible-decision-rules">Admissible decision rules</h2>
 <p>Given two decision rules <code>$d$</code> and <code>$d'$</code>, we say <code>$d$</code> strictly dominates <code>$d'$</code> if <code>$R(\theta,d)\leq R(\theta,d')$</code> for all values of <code>$\theta$</code>, and <code>$R(\theta,d)&lt;R(\theta,d')$</code> for at least one <code>$\theta$</code>.</p>
+<p>Any decision rule which is strictly dominated by another decision rule is said to be inadmissible. If a decision rule d is not strictly dominated by any other decision rule, then it is admissible.</p>
 <h2 id="minimax-decision-rules">Minimax decision rules</h2>
 <p>The maximum risk of decision rule <code>$d$</code> is defined by
 <code>$$\operatorname{MR}(d)=\sup _{\theta} R(\theta, d)$$</code>
@@ -146,6 +147,8 @@ The Bayes principle says we should use the Bayes decision rule.</p>
 <p>If a Bayes rule is unique, it is admissible.</p>
 <h3 id="theorem-25">Theorem 2.5</h3>
 <p>Let <code>$\Omega_\theta$</code> be a subset of the real line. Assume that the risk functions <code>$R(\theta,d)$</code> are continuous in <code>$\theta$</code> for all decision rules <code>$d$</code>. Suppose that for any <code>$\epsilon&gt;0$</code> and any <code>$\theta$</code> the interval <code>$(\theta-\epsilon,\theta+\epsilon)$</code> has positive probability under the prior <code>$\pi$</code>. Then a Bayes rule with respect to <code>$\pi$</code> is admissible.</p>
+<h2 id="least-favorable">Least favorable</h2>
+<p>In a Bayes decision problem, a prior distribution <code>$\pi$</code> is said to be least favorable if <code>$r_\pi \geq r_{\pi'}$</code>, for all prior distributions <code>$\pi'$</code>, where <code>$r_\pi$</code> denotes the Bayes risk of the Bayes rule <code>$d_\pi$</code> with respect to <code>$\pi$</code>.</p>
 
 
 

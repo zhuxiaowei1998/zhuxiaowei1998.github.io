@@ -106,13 +106,13 @@ density of <code>$Y$</code> given <code>$S = s$</code> does not depend on <code>
 <p>Then <code>$S$</code> is said to be sufficient for <code>$\theta$</code>.</p>
 <h3 id="minimal-sufficient-statistic">Minimal sufficient statistic</h3>
 <p>The definition does not define <code>$S$</code> uniquely. We usually take the minimal <code>$S$</code> for which this holds, the minimal sufficient statistic. S is minimal sufficient if it is a function of every other sufficient statistic.</p>
+<p>To identify minimal sufficient statistics,
+A statistic <code>$T$</code> is minimal sufficient iff
+<code>$$T(x)=T(y) \Leftrightarrow \frac{L\left(\theta_{1} ; x\right)}{L\left(\theta_{2} ; x\right)}=\frac{L\left(\theta_{1} ; y\right)}{L\left(\theta_{2} ; y\right)}, \quad \forall \theta_{1}, \theta_{2} \in \Omega_{\theta} .$$</code></p>
 <h3 id="factorisation">Factorisation</h3>
 <p>Determination of <code>$S$</code> from the definition above is often difficult. Instead we use the factorisation theorem: a necessary and sufficient condition that <code>$S$</code> is sufficient for <code>$\theta$</code> is that for all <code>$y,\theta$</code></p>
 <p><code>$$f_Y(y;\theta) = g(s,\theta)h(y)$$</code></p>
 <p>for some functions <code>$g$</code> and <code>$h$</code>.</p>
-<p>To identify minimal sufficient statistics,
-A statistic <code>$T$</code> is minimal sufficient iff
-<code>$$T(x)=T(y) \Leftrightarrow \frac{L\left(\theta_{1} ; x\right)}{L\left(\theta_{2} ; x\right)}=\frac{L\left(\theta_{1} ; y\right)}{L\left(\theta_{2} ; y\right)}, \quad \forall \theta_{1}, \theta_{2} \in \Omega_{\theta} .$$</code></p>
 <h2 id="completenesshttpsenwikipediaorgwikicompleteness_statistics"><a href="https://en.wikipedia.org/wiki/Completeness_(statistics)">Completeness</a></h2>
 <p>A sufficient statistic <code>$T(Y)$</code> is complete if for any real function <code>$g$</code>,
 <code>$$\mathbb{E}_{\theta}\{g(T)\}=0, \quad\text{for all }\theta$$</code>
