@@ -6,7 +6,43 @@
     <description>Recent content in Notes on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python 笔记</title>
+      <link>https://zhuxiaowei1998.github.io/note/2022/01/14/python/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2022/01/14/python/</guid>
+      <description>Basic ^ means XOR    A B A XOR B     0 0 0   0 1 1   1 0 1   1 1 0    map function func = lambda x: x**2 map_func = map(func,[1,2,3,4,5]) map_func = list(map_func) print(map_func) # result: [1, 4, 9, 16, 25] Numpy zeros/ones matrix X = np.zeros((2,2)) # [[0. 0.] # [0. 0.]] Y = np.</description>
+    </item>
+    
+    <item>
+      <title>第一学期小结</title>
+      <link>https://zhuxiaowei1998.github.io/note/2022/01/14/term-1-reflection/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2022/01/14/term-1-reflection/</guid>
+      <description>这一周FSI和PfS两门课考试结束了，意味着我在IC的第一个学期彻底结束了。这个学期过得不是特别满意。主要不满意的点在于自己时间利用效率相比以往大大降低了，导致很多事情本可以做，但是却没有。自己整个人的状态就是比较的懒散，躺平，甚至有点颓废，没有明确的目标和方向。
+这学期主要就是在学四门专业课。Probability for Statistics 就是本科概率论的升级版，另外多了一点点 Markov Chain 的内容。Fundamental Statistics Inferences 是一门很理论的统计推断课，我平时没有学明白，导致我假期一直在学这门课。不过也算收获颇多。对Bayesian，Fisher 和 frequentist有了一定的了解。和我之前学习数学物理方程等数学课一样，再一次地印证了我的观点：只要静下心来好好看，好好学，就没有学不会的。其实主要是动机，注意力和耐心的问题。Applied statistics讲了几个回归模型：linear model, general linear model 和 normal linear model，以及如何进行参数估计，预测，模型诊断。Computational statistics 讲了一些统计计算的方法，包括了：EM, Importance sampling, bootstrap, MCMC。
+专业课学习之外，这学期做的另外一件事就是准备找工作了。参加了两次腾讯针对留学生的暑期实习招聘。第一次惨败，第二次差强人意。这个教训再一次证明了不打无准备之仗，要做好充分准备再行动。也是在第一次惨败之后，我开始重新刷SQL的题目，重新刷Leetcode。最后刷了近80道算法题，刷了牛客网上一百多道SQL题。百面机器学习看了大半。李宏毅的机器学习网课看了1/3。下学期准备把《百面机器学习》和《百面深度学习》看完，另外跟着李宏毅上机器学习网课。
+第一次问的问题： SQL
+ join有哪几种，区别 SQL语句的优先级，内在逻辑 手写代码（一个多表查询）  机器学习
+ gbdt和随机森林的原理 是否了解因果推断 xgboost  健身：在学校健身房办了张30镑的年卡，可惜因为疫情后来就没有再去了，只能在公寓里练练瑜伽垫。
+社交：和zzy, zyl, zxl, wsh, qc, lyq, xyn, gxy, simon, dz, xf, david, tyd, lzm等保持联系，不少是有几年没联系的了。
+感情方面：同居一个月余，24小时在一起，这是一种很难得的体验，我觉得不生厌已经很不错了，但是小日子过得还不错，认识到现在没有吵过一次架，一起做饭，一起生活，平平淡淡才是真。
+下一个学期，学业压力不小。我的重心准备放在学习专业课上。
+ 看完每一个video 做完每一个exercise 阅读reading list 时常总结记录，多停下来，思考一会儿。  </description>
+    </item>
+    
+    <item>
+      <title>牛客网SQL刷题记录</title>
+      <link>https://zhuxiaowei1998.github.io/note/2022/01/07/sql/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2022/01/07/sql/</guid>
+      <description>SQL 60 累计和</description>
+    </item>
+    
     <item>
       <title>白灼秋葵</title>
       <link>https://zhuxiaowei1998.github.io/note/2022/01/04/okra/</link>
@@ -33,12 +69,13 @@
     </item>
     
     <item>
-      <title>Statistical inference 9</title>
-      <link>https://zhuxiaowei1998.github.io/note/2021/12/31/statistical-inference-9/</link>
-      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <title>关于学习</title>
+      <link>https://zhuxiaowei1998.github.io/note/2022/01/02/learn/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://zhuxiaowei1998.github.io/note/2021/12/31/statistical-inference-9/</guid>
-      <description>Inverse Gaussian Distribution Definition Properties Likelihood, MLE Full exponential family MVUE $IG(\mu, \psi)$, test on $\psi$ $IG(\mu, \psi)$, test on $\mu$ </description>
+      <guid>https://zhuxiaowei1998.github.io/note/2022/01/02/learn/</guid>
+      <description>学习：不会到会的过程
+过去学过的东西，能很快拾起来</description>
     </item>
     
     <item>
@@ -59,7 +96,7 @@
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://zhuxiaowei1998.github.io/note/2021/12/29/probability/</guid>
-      <description>The Elements of Probability Theory Algebra and σ-algebra Borel σ-algebra Measure Probability measure Properties of the probability measure Monotone class theorem Caratheodory extension theorem Random Variables and Vectors Random variables Definition Proposition Random vectors Distribution function of a random variable Definition Proposition Distribution function of a random vector Definition Proposition Independence of random variables Independence of random vectors Integration and Expectation Lebesgue-Stieltjes integration Definition Proposition Fatou’s lemma Monotone convergence theorem Dominated convergence theorem Bounded convergence theorem Important inequalities Markov’s inequality Chebychev’s inequality Jensen’s inequality Hölder’s inequality Schwarz’s inequality Minkowski’s inequality Iterated integrals Tonelli’s theorem Fubini’s theorem) Densities Modes of Convergence Almost sure convergence Convergence in probability Convergence in $L^p$ Convergence in distribution Connection between modes of convergence Slutsky’s theorem Convergence of random vectors Multivariate Mann-Wald mapping theorem) Laws of Large Numbers Weak law of large numbers Strong law of large numbers Glivenko-Cantelli theorem) Central Limit Theorems Standard central limit theorem Lindeberg condition Lindeberg’s CLT Uniform asymptotic negligibility (UAN) condition Feller’s theorem Lindeberg-Feller theorem Lyapounov condition Characteristic functions Definition Proposition Cramer-Wold device Delta method Conditional Probability and Expectation Conditional expectation Definition Proposition Markov Chain </description>
+      <description>The Elements of Probability Theory Algebra and σ-algebra Borel σ-algebra Measure Probability measure Properties of the probability measure Monotone class theorem Caratheodory extension theorem Random Variables and Vectors Random variables Definition Proposition Random vectors Distribution function of a random variable Definition Proposition Distribution function of a random vector Definition Proposition Independence of random variables Independence of random vectors Integration and Expectation Lebesgue-Stieltjes integration Definition Proposition Fatou’s lemma Monotone convergence theorem Dominated convergence theorem Bounded convergence theorem Important inequalities Markov’s inequality Chebychev’s inequality Jensen’s inequality Hölder’s inequality Schwarz’s inequality Minkowski’s inequality Iterated integrals Tonelli’s theorem Fubini’s theorem) Densities Modes of Convergence Almost sure convergence Convergence in probability Convergence in $L^p$ Convergence in distribution Connection between modes of convergence Borel-Cantelli lemma Slutsky’s theorem Convergence of random vectors Multivariate Mann-Wald mapping theorem) Laws of Large Numbers Weak law of large numbers Strong law of large numbers Glivenko-Cantelli theorem Central Limit Theorems Standard central limit theorem Lindeberg condition Lindeberg’s CLT Uniform asymptotic negligibility (UAN) condition Feller’s theorem Lindeberg-Feller theorem Lyapounov condition Characteristic functions Definition Proposition Cramer-Wold device Delta method Conditional Probability and Expectation Conditional expectation Definition Proposition Markov Chain </description>
     </item>
     
     <item>
@@ -157,15 +194,6 @@ Leetcode 刷了三道编程题，汉诺塔问题，最长公共子串，子数�
 随记 做leetcode编程题，谋定而后动！
 光看一本书还不够，得多去看看不同的书。
 例子很重要！</description>
-    </item>
-    
-    <item>
-      <title>条件随机场</title>
-      <link>https://zhuxiaowei1998.github.io/note/2021/12/28/em-gmm/</link>
-      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhuxiaowei1998.github.io/note/2021/12/28/em-gmm/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -544,10 +572,11 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
       <description>这里将记录我的建站历程
 本个人主页采用hugo，关于Hugo的简单教程在这里，模板参考谢益辉使用的hugo-ivy，网站建立的教程参考该youtube视频。谢益辉写的blogdown和hugo-ivy的一些说明在这里。
 日后如需更新文档，输入以下git代码：
-&amp;gt;hugo &amp;gt;cd public &amp;gt;git remote -v &amp;gt;git status &amp;gt;git add . &amp;gt;git commit -m &amp;#34;add something&amp;#34; &amp;gt;git push origin main 输入公式:
+hugo &amp;gt;cd public &amp;gt;git remote -v &amp;gt;git status &amp;gt;git add . &amp;gt;git commit -m &amp;#34;add something&amp;#34; &amp;gt;git push origin main 输入公式:
 `$ $`
 插入图片：
-将图片放入 static/img 中</description>
+将图片放入 static/img 中
+使用不同的颜色</description>
     </item>
     
     <item>
@@ -562,15 +591,6 @@ Common loss function Squared error loss function: $$L(\theta,a) = (\theta-a)^2$$
 做法：
  将生鸡蛋煮熟 放入冰水浸泡20分钟，然后轻轻敲碎外壳 另起一锅，加水，放茶叶、八角、桂皮，倒生抽，老抽，放盐，放糖 煮10分钟，有香味后，放敲碎的鸡蛋，中火煮半小时 全部倒入慢炖锅，低档开一晚上  Tips:
  茶叶最好用红茶 鸡蛋敲碎一点，否则不入味  </description>
-    </item>
-    
-    <item>
-      <title>关于学习</title>
-      <link>https://zhuxiaowei1998.github.io/note/2021/01/02/learn/</link>
-      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhuxiaowei1998.github.io/note/2021/01/02/learn/</guid>
-      <description>学习：不会到会的过程</description>
     </item>
     
   </channel>

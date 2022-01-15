@@ -6,7 +6,34 @@
     <description>Recent content in Categories on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Science</title>
+      <link>https://zhuxiaowei1998.github.io/categories/data-science/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/categories/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reflection</title>
+      <link>https://zhuxiaowei1998.github.io/categories/reflection/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/categories/reflection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL</title>
+      <link>https://zhuxiaowei1998.github.io/categories/sql/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/categories/sql/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>life</title>
       <link>https://zhuxiaowei1998.github.io/categories/life/</link>
@@ -17,11 +44,11 @@
     </item>
     
     <item>
-      <title>statistics</title>
-      <link>https://zhuxiaowei1998.github.io/categories/statistics/</link>
-      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <title>thoughts</title>
+      <link>https://zhuxiaowei1998.github.io/categories/thoughts/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://zhuxiaowei1998.github.io/categories/statistics/</guid>
+      <guid>https://zhuxiaowei1998.github.io/categories/thoughts/</guid>
       <description></description>
     </item>
     
@@ -44,11 +71,11 @@
     </item>
     
     <item>
-      <title>machine learning</title>
-      <link>https://zhuxiaowei1998.github.io/categories/machine-learning/</link>
-      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+      <title>statistics</title>
+      <link>https://zhuxiaowei1998.github.io/categories/statistics/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://zhuxiaowei1998.github.io/categories/machine-learning/</guid>
+      <guid>https://zhuxiaowei1998.github.io/categories/statistics/</guid>
       <description></description>
     </item>
     
@@ -58,6 +85,15 @@
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://zhuxiaowei1998.github.io/categories/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://zhuxiaowei1998.github.io/categories/machine-learning/</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/categories/machine-learning/</guid>
       <description></description>
     </item>
     
@@ -103,15 +139,6 @@
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://zhuxiaowei1998.github.io/categories/summary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>thoughts</title>
-      <link>https://zhuxiaowei1998.github.io/categories/thoughts/</link>
-      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhuxiaowei1998.github.io/categories/thoughts/</guid>
       <description></description>
     </item>
     

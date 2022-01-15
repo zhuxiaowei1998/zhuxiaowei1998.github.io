@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL on Xiaowei</title>
+    <link>https://zhuxiaowei1998.github.io/categories/sql/</link>
+    <description>Recent content in SQL on Xiaowei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/categories/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>牛客网SQL刷题记录</title>
+      <link>https://zhuxiaowei1998.github.io/note/2022/01/07/sql/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2022/01/07/sql/</guid>
+      <description>SQL 60 累计和</description>
+    </item>
+    
+  </channel>
+</rss>

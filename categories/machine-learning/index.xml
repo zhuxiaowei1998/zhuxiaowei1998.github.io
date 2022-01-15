@@ -6,16 +6,7 @@
     <description>Recent content in machine learning on Xiaowei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>条件随机场</title>
-      <link>https://zhuxiaowei1998.github.io/note/2021/12/28/em-gmm/</link>
-      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhuxiaowei1998.github.io/note/2021/12/28/em-gmm/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EM算法</title>
       <link>https://zhuxiaowei1998.github.io/note/2021/12/26/em-gmm/</link>

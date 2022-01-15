@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science on Xiaowei</title>
+    <link>https://zhuxiaowei1998.github.io/categories/data-science/</link>
+    <description>Recent content in Data Science on Xiaowei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuxiaowei1998.github.io/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python 笔记</title>
+      <link>https://zhuxiaowei1998.github.io/note/2022/01/14/python/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/note/2022/01/14/python/</guid>
+      <description>Basic ^ means XOR    A B A XOR B     0 0 0   0 1 1   1 0 1   1 1 0    map function func = lambda x: x**2 map_func = map(func,[1,2,3,4,5]) map_func = list(map_func) print(map_func) # result: [1, 4, 9, 16, 25] Numpy zeros/ones matrix X = np.zeros((2,2)) # [[0. 0.] # [0. 0.]] Y = np.</description>
+    </item>
+    
+  </channel>
+</rss>

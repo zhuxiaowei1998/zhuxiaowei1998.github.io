@@ -28,6 +28,16 @@
     </item>
     
     <item>
+      <title>原则</title>
+      <link>https://zhuxiaowei1998.github.io/posts/thoughts/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhuxiaowei1998.github.io/posts/thoughts/</guid>
+      <description>有一种痛苦叫：你本可以，但却没有
+多巴胺饱和，沉醉在刷手机，打游戏的即时快乐，被剥夺了注意力</description>
+    </item>
+    
+    <item>
       <title>建站历程</title>
       <link>https://zhuxiaowei1998.github.io/note/2021/12/19/home-page/</link>
       <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
@@ -36,10 +46,11 @@
       <description>这里将记录我的建站历程
 本个人主页采用hugo，关于Hugo的简单教程在这里，模板参考谢益辉使用的hugo-ivy，网站建立的教程参考该youtube视频。谢益辉写的blogdown和hugo-ivy的一些说明在这里。
 日后如需更新文档，输入以下git代码：
-&amp;gt;hugo &amp;gt;cd public &amp;gt;git remote -v &amp;gt;git status &amp;gt;git add . &amp;gt;git commit -m &amp;#34;add something&amp;#34; &amp;gt;git push origin main 输入公式:
+hugo &amp;gt;cd public &amp;gt;git remote -v &amp;gt;git status &amp;gt;git add . &amp;gt;git commit -m &amp;#34;add something&amp;#34; &amp;gt;git push origin main 输入公式:
 `$ $`
 插入图片：
-将图片放入 static/img 中</description>
+将图片放入 static/img 中
+使用不同的颜色</description>
     </item>
     
   </channel>
