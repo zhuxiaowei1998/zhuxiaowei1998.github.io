@@ -20,7 +20,8 @@ hugo &amp;gt;cd public &amp;gt;git remote -v &amp;gt;git status &amp;gt;git add 
 `$ $`
 插入图片：
 将图片放入 static/img 中
-使用不同的颜色</description>
+使用不同的颜色
+分段函数： $\begin{cases}1 &amp;amp; \text { if } t(y) \in C_{\alpha} \\ 0 &amp;amp; \text { otherwise }\end{cases}$</description>
     </item>
     
   </channel>

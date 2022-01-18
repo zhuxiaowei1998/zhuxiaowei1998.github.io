@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>数学题1 - Xiaowei</title>
+    <meta property="og:title" content="数学题1 - Xiaowei">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="Let $x$ be an integer between $1$ and $10^{12}$, what is the probability that cubic of $x$ ends with $51$?
+If $x$ ends with $51$, this means that $x^3 \equiv51\pmod{100}$. &amp;hellip;">
+      <meta property="og:description" content="Let $x$ be an integer between $1$ and $10^{12}$, what is the probability that cubic of $x$ ends with $51$?
+If $x$ ends with $51$, this means that $x^3 \equiv51\pmod{100}$. &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="note">
+    <header class="masthead">
+      <h1><a href="/">Xiaowei</a></h1>
+
+<p class="tagline">An unexamined life is not worth living.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" hidden/>
+  <label id="menu-label" for="menu-check" class="unselectable" hidden>
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="/about/">About</a></li>
+  
+  <li><a href="/categories/">Categories</a></li>
+  
+  <li><a href="/tags/">Tags</a></li>
+  
+  <li><a href="/links/">Links</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>数学题1</h1>
+
+<h3>Xiaowei Zhu
+  /  2022-01-17</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<p>Let <code>$x$</code> be an integer between <code>$1$</code> and <code>$10^{12}$</code>, what is the probability that cubic of <code>$x$</code> ends with <code>$51$</code>?</p>
+<p>If <code>$x$</code> ends with <code>$51$</code>, this means that <code>$x^3 \equiv51\pmod{100}$</code>.</p>
+<p><code>$$\Leftrightarrow100|x^3-51$$</code></p>
+<p><code>$$\Leftrightarrow\begin{cases}4|x^3-51 \\ 25|x^3-51\end{cases}$$</code></p>
+<p><code>$$\Leftrightarrow\begin{cases}4|x^3+1 \\ 25|x^3-1\end{cases}$$</code></p>
+<p><code>$$\Leftrightarrow\begin{cases}4|(x+1)(x^2-x+1) \\ 25|(x-1)(x^2+x+1)\end{cases}$$</code></p>
+<p>Since <code>$x^2-x+1$</code> is odd,</p>
+<p><code>$$\Leftrightarrow\begin{cases}4|(x+1) \\ 25|(x-1)(x^2+x+1)\end{cases}$$</code></p>
+<p>Let <code>$x = 4k-1$</code>, <code>$k = 1,2,3,\cdots$</code>.
+<code>$$\Leftrightarrow25|(4k-2)(16k^2-4k+1)$$</code></p>
+<p>Since
+<code>$$\begin{aligned}16k^2-4k+1 &amp;\equiv k^2-4k+1\pmod{5}\\&amp;\equiv (k-2)^2-3\pmod{5}\end{aligned}$$</code></p>
+<p>Since the square number mod 5 can only be <code>$0,1,4$</code>, therefore</p>
+<p><code>$$5\nmid 16k^2-4k+1\Longrightarrow25\nmid 16k^2-4k+1$$</code></p>
+<p>Therefore,
+<code>$$2k-1 = 50m$$</code>
+Let <code>$m = 2t-1$</code>, then <code>$k = 25t-12$</code>.
+<code>$$x = 100t-49$$</code></p>
+<p>As a result,
+<code>$$x^3\equiv51\pmod{100}\equiv x=100t-49,\quad(t=1,2,3,\cdots)$$</code></p>
+<p>When <code>$1\leq x\leq 10^{12}$</code>, <code>$1\leq t\leq 10^{10}$</code>.</p>
+<p>So, the probability is <code>$\frac{1}{100}$</code>.</p>
+<p>This result can also be verified through the following code, considering <code>$x\leq 10^3$</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">k <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">10</span><span style="color:#f92672">**</span><span style="color:#ae81ff">3</span>):
+    <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">**</span> <span style="color:#ae81ff">3</span>) <span style="color:#f92672">%</span> <span style="color:#ae81ff">100</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">51</span>:
+        print(i)
+        k <span style="color:#f92672">=</span> k <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+print(<span style="color:#e6db74">&#34;k=</span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(k))
+
+<span style="color:#75715e">#results:</span>
+<span style="color:#ae81ff">51</span>
+<span style="color:#ae81ff">151</span>
+<span style="color:#ae81ff">251</span>
+<span style="color:#ae81ff">351</span>
+<span style="color:#ae81ff">451</span>
+<span style="color:#ae81ff">551</span>
+<span style="color:#ae81ff">651</span>
+<span style="color:#ae81ff">751</span>
+<span style="color:#ae81ff">851</span>
+<span style="color:#ae81ff">951</span>
+k<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>
+</code></pre></div>
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/note/2022/01/14/python/">Python 笔记</a></span>
+  <span class="nav-next"></span>
+</nav>
+
+
+
+
+
+<script src="//yihui.org/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.org/js/center-img.js"></script>
+
+  
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+  
+  <hr>
+  <div class="copyright">© <a href="https://zhuxiaowei1998.github.io/">Xiaowei Zhu</a> 2021</div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+
